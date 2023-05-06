@@ -5,6 +5,10 @@ public class JavaDataTypes {
         char myLetter = 'A';
         boolean myBool = false;
         String myText = "Hello World";
+	/*byte, short, int, long, float, double, boolean and char are called:
+    primitive data types*/
+	double myDouble = 9.78d;
+	int myInt =(int) myDouble;
     }
   }
   
