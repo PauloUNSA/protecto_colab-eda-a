@@ -3,9 +3,10 @@ public class ArrayInverso{
 		
 		int[] A={1,2,3};
 		
-		for(int i=0;i<A.length;i++){
-			System.out.print(invertirArray(A)[i]+", ");
-		}	
+		System.out.println("Matriz original");
+		imprimirMatriz(A);
+		System.out.println("Matriz invertida");
+		imprimirMatriz(invertirArray(A));
 	
 	}
 
@@ -16,6 +17,13 @@ public class ArrayInverso{
 		}
 		return Ain;
 	}	
+	public static void imprimirMatriz(int[] matriz ){
+		for (int i=0;i<matriz.length;i++){
+			
+			System.out.print(matriz[i]+" ");
+		}
+		System.out.println();
 
+	}
 
 }
