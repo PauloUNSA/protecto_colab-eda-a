@@ -1,9 +1,8 @@
 public interface cola <E>{
-    void enqueue (E x);
-    E denqueue();
-    E front();
-    E back();
-    boolean inEmpty();
+    public void enqueue (E x);
+    public void denqueue();
+    public String front();
+    public String back();
+    public boolean inEmpty();
     
 }
-
