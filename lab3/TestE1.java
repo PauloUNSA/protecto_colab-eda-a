@@ -13,7 +13,7 @@ public class TestE1 {
             int n2 = sumaArr(h2);
             int n3 = sumaArr(h3);
             int[] mayor = Math.max(n1, n2) == n1 ? h1 : h2;
-            mayor = Math.max(mayor.length, n3) == n1 ? mayor : h3;
+            mayor = Math.max(sumaArr(mayor), n3) == n1 ? mayor : h3;
             int[] aux = new int[mayor.length - 1];
             for (int i = 0; i < mayor.length - 1; i++) {
                 aux[i] = mayor[i];
