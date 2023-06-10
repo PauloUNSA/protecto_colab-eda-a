@@ -6,11 +6,9 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) throws FileNotFoundException {
-        Node<Integer> node1 = new Node<>(1);
-        Node<Integer> node2 = new Node<>();
-        Node<Integer> node3 = new Node<>(1);
-        Node<Integer> node4 = new Node<>(1);
-        int tamano;
+        ListaDoble<Integer> listaDoble = generarPeorCaso(10);
+        System.out.println(listaDoble);
+        /*int tamano;
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduzca el tamaño máximo del último arreglo: ");
         tamano = teclado.nextInt();
@@ -52,12 +50,12 @@ public class Test {
         return nano_endTime - nano_startTime;
     }
 
-    public static int[] generarPeorCaso(int t) {
-        int[] lista = new int[t];
-        for (int i = 0; i < t; i++) {
-            lista[i] = t - i;
+    public static ListaDoble<Integer> generarPeorCaso(int tamanio) {
+        ListaDoble<Integer> listaDoble = new ListaDoble<>();
+        for (int i = 0; i < tamanio; i++) {
+            listaDoble.addFinal(tamanio - i);
         }
-        return lista;
+        return listaDoble;
     }
     public static void imprimirArreglo(int[] lista){
         System.out.println("");

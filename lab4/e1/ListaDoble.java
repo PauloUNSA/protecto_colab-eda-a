@@ -24,8 +24,19 @@ public class ListaDoble<E> {
         }
     }
 
-    public boolean isEmpty(){
-        return inicio==null;
+    public boolean isEmpty() {
+        return inicio == null;
     }
-
+    @Override
+    public String toString() {
+        String text="";
+        if (!isEmpty()){
+            Node<E> aux = inicio;
+            while (aux!=null){
+                text += aux.getData()+" ";
+                aux = aux.getNextNode();
+            }
+        }
+        return  text;
+    }
 }
