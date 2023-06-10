@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class ListaDoble<E> {
     private Node<E> inicio,fin;
 
@@ -27,6 +25,23 @@ public class ListaDoble<E> {
     public boolean isEmpty() {
         return inicio == null;
     }
+
+    public Node<E> getInicio() {
+        return inicio;
+    }
+
+    public void setInicio(Node<E> inicio) {
+        this.inicio = inicio;
+    }
+
+    public Node<E> getFin() {
+        return fin;
+    }
+
+    public void setFin(Node<E> fin) {
+        this.fin = fin;
+    }
+
     @Override
     public String toString() {
         String text="";

@@ -8,6 +8,8 @@ public class Test {
     public static void main(String[] args) throws FileNotFoundException {
         ListaDoble<Integer> listaDoble = generarPeorCaso(10);
         System.out.println(listaDoble);
+        insertionSort(listaDoble);
+        System.out.println(listaDoble);
         /*int tamano;
         Scanner teclado = new Scanner(System.in);
         System.out.print("Introduzca el tamaño máximo del último arreglo: ");
@@ -31,25 +33,31 @@ public class Test {
         p.plot();*/
     }
 
-    public static long insertionSort(int[] A) {
-        int key;
-        int i;
+    public static long insertionSort(ListaDoble<Integer> lista) {
+        Node<Integer> keyNode;
+        Node<Integer> currentNode;
         long nano_startTime = System.nanoTime();
-        for (int j = 1; j < A.length; j = j + 1) {
-            key = A[j];
-//Insertar A[j] en la secuencia ordenada A[1..j-1]
-            i = j - 1;
-            while (i > -1 && A[i] > key) {
-                A[i + 1] = A[i];
-                i = i - 1;
+        if (!lista.isEmpty()) {
+            keyNode = lista.getInicio().getNextNode();
+            while (keyNode != null) {
+                Integer key = keyNode.getData();
+                currentNode = keyNode.getPreviousNode();
+                while (currentNode != null && currentNode.getData() > key) {
+                    currentNode.getNextNode().setData(currentNode.getData());
+                    currentNode = currentNode.getPreviousNode();
+                }
+                if (currentNode == null) {
+                    lista.getInicio().setData(key);
+                } else {
+                    currentNode.getNextNode().setData(key);
+                }
+
+                keyNode = keyNode.getNextNode();
             }
-            A[i + 1] = key;
-//imprimirArreglo(A);
         }
         long nano_endTime = System.nanoTime();
         return nano_endTime - nano_startTime;
     }
-
     public static ListaDoble<Integer> generarPeorCaso(int tamanio) {
         ListaDoble<Integer> listaDoble = new ListaDoble<>();
         for (int i = 0; i < tamanio; i++) {
@@ -57,11 +65,4 @@ public class Test {
         }
         return listaDoble;
     }
-    public static void imprimirArreglo(int[] lista){
-        System.out.println("");
-        for (int x=0; x<lista.length; x++) {
-            System.out.print(lista[x] + " ");
-        }
-    }
-
 }
