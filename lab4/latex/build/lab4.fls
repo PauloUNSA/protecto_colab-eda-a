@@ -922,7 +922,19 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT .\src\pic01.py
+INPUT src\pic01.py
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt9.tfm
+INPUT .\src\pic01.py
+INPUT src\pic01.py
+INPUT .\src\pic01.py
+INPUT src\pic01.py
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
@@ -938,32 +950,6 @@ INPUT .\img\logo_abet.png
 INPUT .\img\logo_abet.png
 INPUT .\img\logo_abet.png
 INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt9.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\base\ts1cmtt.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tctt0900.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT .\src\pic01.py
-INPUT src\pic01.py
-INPUT .\src\pic01.py
-INPUT src\pic01.py
-INPUT .\src\pic01.py
-INPUT src\pic01.py
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
 INPUT .\src\e2a.py
 INPUT src\e2a.py
 INPUT .\src\e2a.py
@@ -984,158 +970,6 @@ INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_abet.png
 INPUT img\logo_abet.png
 INPUT .\img\logo_abet.png
-INPUT .\src\pic02.py
-INPUT src\pic02.py
-INPUT .\src\pic02.py
-INPUT src\pic02.py
-INPUT .\src\pic02.py
-INPUT src\pic02.py
-INPUT .\src\e2b.py
-INPUT src\e2b.py
-INPUT .\src\e2b.py
-INPUT src\e2b.py
-INPUT .\src\e2b.py
-INPUT src\e2b.py
-INPUT .\img\e2b.png
-INPUT .\img\e2b.png
-INPUT img\e2b.png
-INPUT .\img\e2b.png
-INPUT .\img\e2b.png
-INPUT .\img\e2b.png
-INPUT .\img\e2b.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\src\e2c.py
-INPUT src\e2c.py
-INPUT .\src\e2c.py
-INPUT src\e2c.py
-INPUT .\src\e2c.py
-INPUT src\e2c.py
-INPUT .\img\e2c.png
-INPUT .\img\e2c.png
-INPUT img\e2c.png
-INPUT .\img\e2c.png
-INPUT .\img\e2c.png
-INPUT .\img\e2c.png
-INPUT .\img\e2c.png
-INPUT .\src\pic03.py
-INPUT src\pic03.py
-INPUT .\src\pic03.py
-INPUT src\pic03.py
-INPUT .\src\pic03.py
-INPUT src\pic03.py
-INPUT .\src\e2d.py
-INPUT src\e2d.py
-INPUT .\src\e2d.py
-INPUT src\e2d.py
-INPUT .\src\e2d.py
-INPUT src\e2d.py
-INPUT .\img\e2d.png
-INPUT .\img\e2d.png
-INPUT img\e2d.png
-INPUT .\img\e2d.png
-INPUT .\img\e2d.png
-INPUT .\img\e2d.png
-INPUT .\img\e2d.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\src\e2e.py
-INPUT src\e2e.py
-INPUT .\src\e2e.py
-INPUT src\e2e.py
-INPUT .\src\e2e.py
-INPUT src\e2e.py
-INPUT .\img\e2e.png
-INPUT .\img\e2e.png
-INPUT img\e2e.png
-INPUT .\img\e2e.png
-INPUT .\img\e2e.png
-INPUT .\img\e2e.png
-INPUT .\img\e2e.png
-INPUT .\src\e2f.py
-INPUT src\e2f.py
-INPUT .\src\e2f.py
-INPUT src\e2f.py
-INPUT .\src\e2f.py
-INPUT src\e2f.py
-INPUT .\img\e2f.png
-INPUT .\img\e2f.png
-INPUT img\e2f.png
-INPUT .\img\e2f.png
-INPUT .\img\e2f.png
-INPUT .\img\e2f.png
-INPUT .\img\e2f.png
-INPUT .\src\pic04.py
-INPUT src\pic04.py
-INPUT .\src\pic04.py
-INPUT src\pic04.py
-INPUT .\src\pic04.py
-INPUT src\pic04.py
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\src\e2g.py
-INPUT src\e2g.py
-INPUT .\src\e2g.py
-INPUT src\e2g.py
-INPUT .\src\e2g.py
-INPUT src\e2g.py
-INPUT .\img\e2g.png
-INPUT .\img\e2g.png
-INPUT img\e2g.png
-INPUT .\img\e2g.png
-INPUT .\img\e2g.png
-INPUT .\img\e2g.png
-INPUT .\img\e2g.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
@@ -1146,8 +980,6 @@ INPUT .\img\logo_abet.png
 INPUT c:\Users\paulo\OneDrive\labs\proyecto_colab-eda-a\lab4\latex\build\lab4.aux
 INPUT c:\Users\paulo\OneDrive\labs\proyecto_colab-eda-a\lab4\latex\build\lab4.out
 INPUT c:\Users\paulo\OneDrive\labs\proyecto_colab-eda-a\lab4\latex\build\lab4.out
-INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0900.pk
-INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tctt0900.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
@@ -1160,7 +992,5 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt9.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt9.pfb
