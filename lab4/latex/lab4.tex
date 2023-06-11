@@ -145,20 +145,35 @@
 			\textbf{Ejercicio 1}  \\
 			\textbf{//taylor}  \\
 			\textbf{Ejercicio 2}  \\
-			\textbf{Para lograr ejecutar el algoritmo de ordenamiento de insercion 
+			\textbf{Para lograr ejecutar el algoritmo de ordenamiento por insercion 
 			primero fue necesario crear la clase ListaDoble el cual tenia 2 nodos,
 			uno inicial y otro final. Con esto se lograba recorrer la lista de el
 			fin al inicio y en viceverza.}  \\
 			\textbf{El metodo addFinal permitia insertar un nodo al final y el otro
-			metodo addInicio al inicio,dependeiendo si es que estaba vacia o no la lista.
-			Asismimo se agrego el metodo isEmpty para saber si estaba vacia y se sobreescribio
-			el metodo toString para mostrar retornar la data del 1er al ultimo dato.}  \\
-			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addInicio.png}\\
-			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addFinal.png}\\
-			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/otros.png}\\
-			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addInicio.png}\\
-			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addFinal.png}\\
-			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/otros.png}\\
+			metodo addInicio, al inicio, dependeiendo si es que estaba vacia o no la lista.}  \\
+			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/addInicio.png}\\
+			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/addFinal.png}\\
+			\textbf{Asismimo se agrego el metodo isEmpty para saber si estaba vacia 
+			y se sobreescribio el metodo toString para mostrar retornar la data 
+			del 1er al ultimo nodo. Los getters y setters se omitieron en la imagen.}\\
+			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/otros.png}\\
+			\textbf{Se creo la clase Test  para implementar el insertionSort y generarPeorCaso.
+			El metodo insertionSort se modifico haciendo que se verificara si es que 
+			la lista no estuviera vacia y en caso fuera asi recorria con un 
+			for en ves de un while hasta que el nodo siguiente fuera nulo. Dentro de este while
+			habia otro que intercambiaba la data, en este caso Integer, de los nodos
+			haciendo que los menores quedaran al inicio y los mayores al final. Retornaba
+			el tiempo que se demoraba haciendo la operacion.}\\
+			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/insertionSort.png}\\
+			\begin{lstlisting}[language=Java,caption={Retorno de insertionSort}][H]
+				return nano_endTime - nano_startTime;
+			\end{lstlisting}
+			\textbf{El metodo generarPeorCaso se modifico para que retornara una ListaDoble donde su
+			primer elemento fuera el tamanio-1 y el ultimo 1, donde tamanio era el valor que 
+			se recibia por argumento, quedando asi el peor caso para hacer insertionSort.}\\
+			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/generador.png}\\
+			
+
 			\hline
 			%%%%%%%%%%%%			
 	\end{longtable}

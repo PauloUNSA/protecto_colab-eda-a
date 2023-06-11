@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  11 JUN 2023 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  11 JUN 2023 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -636,41 +636,46 @@ LaTeX Info: Redefining \% on input line 117.
 <img/addInicio.png, id=14, 316.18124pt x 117.43875pt>
 File: img/addInicio.png Graphic file (type png)
 <use img/addInicio.png>
-Package pdftex.def Info: img/addInicio.png  used on input line 156.
-(pdftex.def)             Requested size: 177.42868pt x 65.90321pt.
+Package pdftex.def Info: img/addInicio.png  used on input line 154.
+(pdftex.def)             Requested size: 266.14978pt x 98.8629pt.
 <img/addFinal.png, id=16, 285.31593pt x 119.69719pt>
 File: img/addFinal.png Graphic file (type png)
 <use img/addFinal.png>
-Package pdftex.def Info: img/addFinal.png  used on input line 157.
-(pdftex.def)             Requested size: 177.42868pt x 74.43613pt.
+Package pdftex.def Info: img/addFinal.png  used on input line 155.
+(pdftex.def)             Requested size: 266.14978pt x 111.65694pt.
 <img/otros.png, id=17, 234.8775pt x 232.61906pt>
 File: img/otros.png Graphic file (type png)
 <use img/otros.png>
-Package pdftex.def Info: img/otros.png  used on input line 158.
-(pdftex.def)             Requested size: 177.42868pt x 175.72392pt.
-File: img/addInicio.png Graphic file (type png)
-<use img/addInicio.png>
-Package pdftex.def Info: img/addInicio.png  used on input line 159.
-(pdftex.def)             Requested size: 177.42868pt x 65.90321pt.
-File: img/addFinal.png Graphic file (type png)
-<use img/addFinal.png>
-Package pdftex.def Info: img/addFinal.png  used on input line 160.
-(pdftex.def)             Requested size: 177.42868pt x 74.43613pt.
-File: img/otros.png Graphic file (type png)
-<use img/otros.png>
-Package pdftex.def Info: img/otros.png  used on input line 161.
-(pdftex.def)             Requested size: 177.42868pt x 175.72392pt.
-<img/logo_episunsa.png, id=18, 195.73125pt x 58.2175pt>
+Package pdftex.def Info: img/otros.png  used on input line 159.
+(pdftex.def)             Requested size: 266.14978pt x 263.5912pt.
+<img/insertionSort.png, id=18, 408.02437pt x 203.25937pt>
+File: img/insertionSort.png Graphic file (type png)
+<use img/insertionSort.png>
+Package pdftex.def Info: img/insertionSort.png  used on input line 167.
+(pdftex.def)             Requested size: 266.14978pt x 132.58844pt.
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 168.
+
+
+Package Listings Warning: Text dropped after begin of listing on input line 168.
+
+<img/generador.png, id=19, 309.40594pt x 59.47218pt>
+File: img/generador.png Graphic file (type png)
+<use img/generador.png>
+Package pdftex.def Info: img/generador.png  used on input line 174.
+(pdftex.def)             Requested size: 266.14978pt x 51.16231pt.
+<img/logo_episunsa.png, id=20, 195.73125pt x 58.2175pt>
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 164.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 179.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-<img/logo_abet.png, id=19, 58.2175pt x 65.24374pt>
+<img/logo_abet.png, id=21, 58.2175pt x 65.24374pt>
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 164.
+Package pdftex.def Info: img/logo_abet.png  used on input line 179.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-
 
 Package fancyhdr Warning: \headheight is too small (30.0pt): 
 (fancyhdr)                Make it at least 40.51407pt, for example:
@@ -680,23 +685,14 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 
 [1{C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
- <./img/logo_episunsa.png> <./img/logo_abet.png> <./img/addInicio.png> <./img/addFinal.png> <./img/otros.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 167.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 167.
- (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 189.
- (src/pic01.py
+ <./img/logo_episunsa.png> <./img/logo_abet.png> <./img/addInicio.png> <./img/addFinal.png>]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 14.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 179.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 14.
+Package pdftex.def Info: img/logo_abet.png  used on input line 179.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
 
 
@@ -706,36 +702,43 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
 
-[2]) (src/e2a.py)
-<img/e2a.png, id=55, 114.4275pt x 135.50626pt>
+[2 <./img/otros.png> <./img/insertionSort.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 182.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 182.
+ (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+) (src/pic01.py)
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 209.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 209.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[3 <./img/generador.png>] (src/e2a.py)
+<img/e2a.png, id=85, 114.4275pt x 135.50626pt>
 File: img/e2a.png Graphic file (type png)
 <use img/e2a.png>
-Package pdftex.def Info: img/e2a.png  used on input line 200.
+Package pdftex.def Info: img/e2a.png  used on input line 215.
 (pdftex.def)             Requested size: 177.42868pt x 210.1214pt.
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 204.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 225.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 204.
-(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
-
-
-Package fancyhdr Warning: \headheight is too small (30.0pt): 
-(fancyhdr)                Make it at least 40.51407pt, for example:
-(fancyhdr)                \setlength{\headheight}{40.51407pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
-
-[3]
-File: img/logo_episunsa.png Graphic file (type png)
-<use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 210.
-(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
-File: img/logo_abet.png Graphic file (type png)
-<use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 210.
+Package pdftex.def Info: img/logo_abet.png  used on input line 225.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
 
 
@@ -755,17 +758,17 @@ Package rerunfilecheck Info: File `lab4.out' has not changed.
 (rerunfilecheck)             Checksum: 5BE479013F35991906C375D0712B5F24;578.
  ) 
 Here is how much of TeX's memory you used:
- 17978 strings out of 476331
- 302077 string characters out of 5797581
- 1909660 words of memory out of 5000000
- 38065 multiletter control sequences out of 15000+600000
+ 18039 strings out of 476331
+ 303007 string characters out of 5797581
+ 1923660 words of memory out of 5000000
+ 38120 multiletter control sequences out of 15000+600000
  514696 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,17n,92p,531b,2263s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,16n,92p,531b,1439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on c:\Users\paulo\OneDrive\labs\proyecto_colab-eda-a\lab4\latex\build\lab4.pdf (4 pages, 155205 bytes).
+Output written on c:\Users\paulo\OneDrive\labs\proyecto_colab-eda-a\lab4\latex\build\lab4.pdf (4 pages, 173991 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 59 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 

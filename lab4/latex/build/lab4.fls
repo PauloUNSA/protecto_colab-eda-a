@@ -964,18 +964,26 @@ INPUT .\img\otros.png
 INPUT .\img\otros.png
 INPUT .\img\otros.png
 INPUT .\img\otros.png
-INPUT .\img\addInicio.png
-INPUT .\img\addInicio.png
-INPUT img\addInicio.png
-INPUT .\img\addInicio.png
-INPUT .\img\addFinal.png
-INPUT .\img\addFinal.png
-INPUT img\addFinal.png
-INPUT .\img\addFinal.png
-INPUT .\img\otros.png
-INPUT .\img\otros.png
-INPUT img\otros.png
-INPUT .\img\otros.png
+INPUT .\img\insertionSort.png
+INPUT .\img\insertionSort.png
+INPUT img\insertionSort.png
+INPUT .\img\insertionSort.png
+INPUT .\img\insertionSort.png
+INPUT .\img\insertionSort.png
+INPUT .\img\insertionSort.png
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt9.tfm
+INPUT .\img\generador.png
+INPUT .\img\generador.png
+INPUT img\generador.png
+INPUT .\img\generador.png
+INPUT .\img\generador.png
+INPUT .\img\generador.png
+INPUT .\img\generador.png
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
@@ -991,6 +999,13 @@ INPUT .\img\logo_abet.png
 INPUT .\img\logo_abet.png
 INPUT .\img\logo_abet.png
 INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\img\logo_episunsa.png
+INPUT .\img\logo_episunsa.png
+INPUT img\logo_episunsa.png
+INPUT .\img\logo_episunsa.png
+INPUT .\img\logo_abet.png
+INPUT img\logo_abet.png
+INPUT .\img\logo_abet.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -999,12 +1014,12 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT .\src\pic01.py
 INPUT src\pic01.py
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt9.tfm
 INPUT .\src\pic01.py
 INPUT src\pic01.py
 INPUT .\src\pic01.py
 INPUT src\pic01.py
+INPUT .\src\e2a.py
+INPUT src\e2a.py
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
@@ -1012,8 +1027,6 @@ INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_abet.png
 INPUT img\logo_abet.png
 INPUT .\img\logo_abet.png
-INPUT .\src\e2a.py
-INPUT src\e2a.py
 INPUT .\src\e2a.py
 INPUT src\e2a.py
 INPUT .\src\e2a.py
@@ -1025,13 +1038,6 @@ INPUT .\img\e2a.png
 INPUT .\img\e2a.png
 INPUT .\img\e2a.png
 INPUT .\img\e2a.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
