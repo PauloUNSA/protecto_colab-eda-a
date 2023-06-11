@@ -758,6 +758,17 @@ INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
@@ -918,16 +929,68 @@ INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\img\e2a.png
-INPUT .\img\e2a.png
-INPUT img\e2a.png
-INPUT .\img\e2a.png
-INPUT .\img\e2a.png
-INPUT .\img\e2a.png
-INPUT .\img\e2a.png
+INPUT .\img\addInicio.png
+INPUT .\img\addInicio.png
+INPUT img\addInicio.png
+INPUT .\img\addInicio.png
+INPUT .\img\addInicio.png
+INPUT .\img\addInicio.png
+INPUT .\img\addInicio.png
+INPUT .\img\addFinal.png
+INPUT .\img\addFinal.png
+INPUT img\addFinal.png
+INPUT .\img\addFinal.png
+INPUT .\img\addFinal.png
+INPUT .\img\addFinal.png
+INPUT .\img\addFinal.png
+INPUT .\img\otros.png
+INPUT .\img\otros.png
+INPUT img\otros.png
+INPUT .\img\otros.png
+INPUT .\img\otros.png
+INPUT .\img\otros.png
+INPUT .\img\otros.png
+INPUT .\img\addInicio.png
+INPUT .\img\addInicio.png
+INPUT img\addInicio.png
+INPUT .\img\addInicio.png
+INPUT .\img\addFinal.png
+INPUT .\img\addFinal.png
+INPUT img\addFinal.png
+INPUT .\img\addFinal.png
+INPUT .\img\otros.png
+INPUT .\img\otros.png
+INPUT img\otros.png
+INPUT .\img\otros.png
+INPUT .\img\logo_episunsa.png
+INPUT .\img\logo_episunsa.png
+INPUT img\logo_episunsa.png
+INPUT .\img\logo_episunsa.png
+INPUT .\img\logo_episunsa.png
+INPUT .\img\logo_episunsa.png
+INPUT .\img\logo_episunsa.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT .\img\logo_abet.png
+INPUT img\logo_abet.png
+INPUT .\img\logo_abet.png
+INPUT .\img\logo_abet.png
+INPUT .\img\logo_abet.png
+INPUT .\img\logo_abet.png
+INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -946,17 +1009,9 @@ INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
 INPUT .\img\logo_abet.png
 INPUT img\logo_abet.png
 INPUT .\img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT .\img\logo_abet.png
-INPUT C:\Users\paulo\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT .\src\e2a.py
 INPUT src\e2a.py
 INPUT .\src\e2a.py
@@ -966,6 +1021,9 @@ INPUT src\e2a.py
 INPUT .\img\e2a.png
 INPUT .\img\e2a.png
 INPUT img\e2a.png
+INPUT .\img\e2a.png
+INPUT .\img\e2a.png
+INPUT .\img\e2a.png
 INPUT .\img\e2a.png
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png

@@ -30,6 +30,7 @@
 \usepackage{subcaption}
 \usepackage{float}
 \usepackage{array}
+\usepackage{longtable}
 
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 \newcolumntype{N}{@{}m{0pt}@{}}
@@ -123,8 +124,8 @@
 	\centerline{\textbf{\Large Tema: \itemTheme}}
 
 	%%%%%%%%%%%%%%%%%%%%%%%%
-	\begin{table}[H]
-		\begin{tabular}{|c|}
+	\begin{longtable}{|p{15cm}|}
+			\caption{Mi tabla extendida}\\
 			\hline 
 			\rowcolor{tablebackground}
 			\color{white}\textbf{INTRODUCCIÓN}  \\
@@ -145,15 +146,25 @@
 			\textbf{//taylor}  \\
 			\textbf{Ejercicio 2}  \\
 			\textbf{Para lograr ejecutar el algoritmo de ordenamiento de insercion 
-			primero fue necesario crear la clase Lista doble}  \\
-			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/e2a.png}\\
+			primero fue necesario crear la clase ListaDoble el cual tenia 2 nodos,
+			uno inicial y otro final. Con esto se lograba recorrer la lista de el
+			fin al inicio y en viceverza.}  \\
+			\textbf{El metodo addFinal permitia insertar un nodo al final y el otro
+			metodo addInicio al inicio,dependeiendo si es que estaba vacia o no la lista.
+			Asismimo se agrego el metodo isEmpty para saber si estaba vacia y se sobreescribio
+			el metodo toString para mostrar retornar la data del 1er al ultimo dato.}  \\
+			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addInicio.png}\\
+			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addFinal.png}\\
+			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/otros.png}\\
+			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addInicio.png}\\
+			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/addFinal.png}\\
+			\includegraphics[width=0.4\textwidth,keepaspectratio]{img/otros.png}\\
 			\hline
 			%%%%%%%%%%%%			
-		\end{tabular}
-	\end{table}
+	\end{longtable}
 	%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{table}[H]
-		\begin{tabular}{|c|}
+		\begin{tabular}{|x{15cm}|}
 			\hline 
 			\rowcolor{tablebackground}
 			\color{white}\textbf{LECCIONES APRENDIDAS Y CONCLUSIONES}  \\
