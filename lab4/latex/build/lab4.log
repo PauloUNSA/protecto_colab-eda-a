@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  11 JUN 2023 16:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  11 JUN 2023 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -618,927 +618,97 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <img/e2a.png, id=14, 114.4275pt x 135.50626pt>
 File: img/e2a.png Graphic file (type png)
 <use img/e2a.png>
-Package pdftex.def Info: img/e2a.png  used on input line 151.
+Package pdftex.def Info: img/e2a.png  used on input line 149.
 (pdftex.def)             Requested size: 177.42868pt x 210.1214pt.
 
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing } inserted.
-<inserted text> 
-                }
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing } inserted.
-<inserted text> 
-                }
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing } inserted.
-<inserted text> 
-                }
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing { inserted.
-<inserted text> 
-                {
-l.153 			\end{figure}
-                     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing { inserted.
-<inserted text> 
-                {
-l.153 			\end{figure}
-                     
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing } inserted.
-<inserted text> 
-                }
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing } inserted.
-<inserted text> 
-                }
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing } inserted.
-<inserted text> 
-                }
-l.153 			\end{figure}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-I'm guessing that you meant to end an alignment here.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Misplaced \cr.
-<inserted text> \cr 
-                    
-l.153 			\end{figure}
-                     
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.153 			\end{figure}
-                     
-(That makes 100 errors; please try again.) 
+Overfull \hbox (127.27962pt too wide) in paragraph at lines 127--153
+[][] 
+ []
+
+(C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 178.
+ (src/pic01.py
+<img/logo_episunsa.png, id=16, 195.73125pt x 58.2175pt>
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 8.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+<img/logo_abet.png, id=17, 58.2175pt x 65.24374pt>
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 8.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[1{C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+ <./img/logo_episunsa.png> <./img/logo_abet.png> <./img/e2a.png>]) (src/e2a.py)
+File: img/e2a.png Graphic file (type png)
+<use img/e2a.png>
+Package pdftex.def Info: img/e2a.png  used on input line 189.
+(pdftex.def)             Requested size: 177.42868pt x 210.1214pt.
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 193.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 193.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[2]
+File: img/logo_episunsa.png Graphic file (type png)
+<use img/logo_episunsa.png>
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 199.
+(pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
+File: img/logo_abet.png Graphic file (type png)
+<use img/logo_abet.png>
+Package pdftex.def Info: img/logo_abet.png  used on input line 199.
+(pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
+
+
+Package fancyhdr Warning: \headheight is too small (30.0pt): 
+(fancyhdr)                Make it at least 40.51407pt, for example:
+(fancyhdr)                \setlength{\headheight}{40.51407pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-10.51407pt}.
+
+[3] (c:\Users\paulo\OneDrive\labs\proyecto_colab-eda-a\lab4\latex\build\lab4.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+LaTeX Info: Redefining \. on input line 24.
+LaTeX Info: Redefining \% on input line 24.
+)
+Package rerunfilecheck Info: File `lab4.out' has not changed.
+(rerunfilecheck)             Checksum: 5BE479013F35991906C375D0712B5F24;578.
+ ) 
 Here is how much of TeX's memory you used:
- 17279 strings out of 476331
- 293583 string characters out of 5797581
- 1851660 words of memory out of 5000000
- 37439 multiletter control sequences out of 15000+600000
- 513315 words of font info for 36 fonts, out of 8000000 for 9000
+ 17804 strings out of 476331
+ 299039 string characters out of 5797581
+ 1921660 words of memory out of 5000000
+ 37901 multiletter control sequences out of 15000+600000
+ 514696 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,16n,92p,470b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,17n,92p,531b,2258s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on c:\Users\paulo\OneDrive\labs\proyecto_colab-eda-a\lab4\latex\build\lab4.pdf (3 pages, 132195 bytes).
+PDF statistics:
+ 123 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 44 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex:153:  ==> Fatal error occurred, no output PDF file produced!
