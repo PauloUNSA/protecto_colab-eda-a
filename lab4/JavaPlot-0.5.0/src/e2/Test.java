@@ -18,7 +18,7 @@ public class Test {
             casos.add(generarPeorCaso(n));
         Iterator<ListaDoble<Integer>> puntero = casos.iterator();
         while (puntero.hasNext())
-            oS.println(String.valueOf(insertionSort(puntero.next())));
+            oS.println(insertionSort(puntero.next()));
         oS.close();
         JavaPlot p = new JavaPlot();
         p.addPlot("\"insercion.txt\" with lines");
