@@ -1021,8 +1021,6 @@ INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_abet.png
 INPUT img\logo_abet.png
 INPUT .\img\logo_abet.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
@@ -1030,6 +1028,8 @@ INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_abet.png
 INPUT img\logo_abet.png
 INPUT .\img\logo_abet.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
