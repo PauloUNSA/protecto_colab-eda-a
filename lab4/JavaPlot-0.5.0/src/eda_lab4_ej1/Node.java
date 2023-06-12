@@ -1,3 +1,5 @@
+package eda_lab4_ej1;
+
 public class Node <E>{
     private E data;
     private Node<E> next;

@@ -1,3 +1,6 @@
+package eda_lab4_ej1;
+
+
 public class NodeLink<E> implements TDAList<E>{
     private Node<E> head;
     private int count;
@@ -5,6 +8,14 @@ public class NodeLink<E> implements TDAList<E>{
     public NodeLink() {
         this.head = null;
         this.count=0;
+    }
+
+    public int getCount() {
+        return count;
+    }
+
+    public Node<E> getHead() {
+        return head;
     }
     
     public boolean IsEmpty(){
@@ -48,7 +59,25 @@ public class NodeLink<E> implements TDAList<E>{
             }
         }
     }
+    public void remove(int indice) {
+        if(indice<count) {
+        if(indice==0)
+            head=head.getNext();
+        else {
+            Node<E> anterior=this.get(indice-1);
+            anterior.setNext(this.get(indice+1));
+        }
+        count--;
+        }
+}
 
+    public Node<E> get(int indice) {
+        Node<E> aux=head;
+        for(int i=0;i<indice;i++)
+            aux=aux.getNext();
+        return aux;
+            }
+    
     @Override
     public String toString() {
         String str="";
