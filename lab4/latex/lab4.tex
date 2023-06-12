@@ -38,13 +38,29 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\itemEmail}{phidalgo@unsa.edu.pe}
+\newcommand{\itemStudent}{Paulo Andre Hidalgo Chinchay}
 \newcommand{\itemCourse}{Estructura de Datos y Algoritmos}
+\newcommand{\itemCourseCode}{20223011}
+\newcommand{\itemSemester}{III}
 \newcommand{\itemUniversity}{Universidad Nacional de San Agustín de Arequipa}
 \newcommand{\itemFaculty}{Facultad de Ingeniería de Producción y Servicios}
 \newcommand{\itemDepartment}{Departamento Académico de Ingeniería de Sistemas e Informática}
 \newcommand{\itemSchool}{Escuela Profesional de Ingeniería de Sistemas}
+\newcommand{\itemAcademic}{2023 - A}
+\newcommand{\itemInput}{Del 9 Junio 2023}
+\newcommand{\itemOutput}{Al 11 Junio 2023}
 \newcommand{\itemPracticeNumber}{04}
 \newcommand{\itemTheme}{Sort y Listas Enlasadas}
+\newcommand{\doble}{\begin{table}
+	\begin{tabular}{|c|c|}
+		\hline 
+		\textbf{Nota}  \\
+		\hline 
+		\textbf{Nota}  \\
+		\hline 			
+	\end{tabular}
+\end{table}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -67,6 +83,7 @@
 \fancyhead[L]{\raisebox{-0.2\height}{\includegraphics[width=3cm]{img/logo_episunsa.png}}}
 \fancyhead[C]{\fontsize{7}{7}\selectfont	\itemUniversity \\ \itemFaculty \\ \itemDepartment \\ \itemSchool \\ \textbf{\itemCourse}}
 \fancyhead[R]{\raisebox{-0.2\height}{\includegraphics[width=1.2cm]{img/logo_abet}}}
+\fancyfoot[L]{Estudiante Paulo Hidalgo Chinchay}
 \fancyfoot[C]{\itemCourse}
 \fancyfoot[R]{Página \thepage}
 
@@ -101,14 +118,41 @@
 	
 	\vspace*{10px}
 	
-	\begin{center}	
-		\fontsize{17}{17} \textbf{ Informe de Laboratorio \itemPracticeNumber}
-	\end{center}
-	\centerline{\textbf{\Large Tema: \itemTheme}}
-
+	
 	%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{table}
+		\centering
+		
+		\resizebox{15cm}{!} {
+			\begin{tabular}{|c|c|c|c|c|c|c|c|c|l|}
+				\hline
+				
+				\multicolumn{9}{c}{\cellcolor[HTML]{FF0000}{\color[HTML]{FFFFFF} INFORMACIÓN BÁSICA}} \\ \hline
+				\multicolumn{1}{|c|}{Asignatura} & \multicolumn{8}{|c|}{Estructura de datos y algoritmos} \\ \hline
+				\multicolumn{1}{|c|}{Título de trabajo} & \multicolumn{8}{|c|}{Sort y Listas Enlazadas} \\ \hline
+				
+				\multicolumn{1}{|c|}{Numero de trabajo} & \multicolumn{2}{|c|}{04}&
+				\multicolumn{1}{|c|}{Año Lectivo}&
+				\multicolumn{2}{|c|}{2023-A}&
+				\multicolumn{1}{|c|}{Nro. Semestre}&
+				\multicolumn{2}{|c|}{III} \\ \hline
+				
+				\multicolumn{1}{|c|}{Fecha de presentación} & \multicolumn{2}{|c|}{11/06/2023} &
+				\multicolumn{1}{|c|}{Hora de presentacion}&
+				\multicolumn{5}{|c|}{11:59pm}\\ \hline
+				
+				
+				\multicolumn{6}{|l|}{\parbox[t]{8cm}{Integrantes\\ 
+						Hidalgo Chinchay, Paulo Andre\\ Betanzos Rosas, Taylor Anthony\\ Villafuerte Ccapira, Frank Alexis}} & \multicolumn{1}{|c|}{Nota (0-20)} &
+				\multicolumn{2}{|c|}{xd}\\ \hline
+				
+				\multicolumn{9}{|l|}{DOCENTE(S): Edith Giovanna Cano Mamani} \\ \hline
+				
+			\end{tabular}
+		}
+	\end{table}
 	\begin{longtable}{|p{15cm}|}
-			\caption{Mi tabla extendida}\\
+			
 			\hline 
 			\rowcolor{tablebackground}
 			\color{white}\textbf{INTRODUCCIÓN}  \\
@@ -147,7 +191,7 @@
 			habia otro que intercambiaba la data, en este caso Integer, de los nodos
 			haciendo que los menores quedaran al inicio y los mayores al final. Retornaba
 			el tiempo que se demoraba haciendo la operacion.}\\
-			\includegraphics[width=0.9\textwidth,keepaspectratio]{img/insertionSort.png}\\
+			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/insertionSort.png}\\
 			\begin{lstlisting}[language=Java,caption={Retorno de insertionSort}][H]
 				return nano_endTime - nano_startTime;
 			\end{lstlisting}\\
@@ -155,13 +199,8 @@
 			primer elemento fuera el tamanio-1 y el ultimo 1, donde tamanio era el valor que 
 			se recibia por argumento, quedando asi el peor caso para hacer insertionSort.}\\
 			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/generador.png}\\
-			\textbf{Por ultimo se descargo el proyecto java plot de \url{https://javaplot.yot.is/}.
-			Donde se agrego ejercicio 2 como e2 importando JavaPlot.}\\
-			\includegraphics[width=0.6\textwidth,keepaspectratio]{img/importaciones.png}\\
-			\textbf{Al ejecutarlo con 1000 nodos quedo el siguiente grafico, donde en el
-			eje x es el numero de nodos y en el y el tiempo en nanosegundos que tomo ordenarlo.
-			Nanosegundos = 10 elevado a -7 segundos.}\\
-			\includegraphics[width=0.8\textwidth,keepaspectratio]{img/plot.png}\\
+
+
 			\hline
 			%%%%%%%%%%%%			
 	\end{longtable}
@@ -189,6 +228,7 @@
 		\item Se tuvieron que implementar las funciones negative, join y under. 
 		En el codigo se detalla lo que hacen.
 	\end{itemize}
+	\lstinputlisting[language=Python, caption={Picture version 1},numbers=left,]{src/pic01.py}
 	Para implementar el negativo se cambia el color de cada carácter, a excepción del espacio
 	ya que este no tiene inverso con doble for(1 anidado). Juntando estos caracteres
 	por medio en una cadena y despues juntando esta cadena al nuevo arreglo 
