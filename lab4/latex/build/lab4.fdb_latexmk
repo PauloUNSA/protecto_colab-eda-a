@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1686528393 "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex" "build/lab4.pdf" "lab4" 1686528397 0
+["pdflatex"] 1686528781 "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex" "build/lab4.pdf" "lab4" 1686528786 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx7.tfm" 1136765053 1336 3125ccb448c1a09074e3aa4a9832f130 ""
@@ -124,9 +124,9 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685894610 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1685894690 23169144 07271776ddda4aded45d63ace5385fa9 ""
-  "build/lab4.aux" 1686528397 1885 7aefef70e7cff5b1bcfd19eb60fe2d07 "pdflatex"
-  "build/lab4.out" 1686528397 578 5be479013f35991906c375d0712b5f24 "pdflatex"
-  "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex" 1686528391 9200 7f6cab8b8882be93e2e72e7536b4c5e4 ""
+  "build/lab4.aux" 1686528785 1749 fd9126fcff9e362c5aa402e6e2e720a1 "pdflatex"
+  "build/lab4.out" 1686528785 578 5be479013f35991906c375d0712b5f24 "pdflatex"
+  "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab4/latex/lab4.tex" 1686528779 8588 7506acad41b303ab927a6237a036abf0 ""
   "img/addFinal.png" 1686524634 9994 cb3495aebe42ef4c191214e3ab55920b ""
   "img/addInicio.png" 1686524650 10149 bf9062016f6da59adb7db646bacb09ee ""
   "img/e2a.png" 1686105070 11220 40ed4201544715384289c4abe3f5c295 ""
@@ -137,9 +137,8 @@
   "img/logo_episunsa.png" 1686105070 6815 2a9ee48dad6b8fd2216f86902e5e7a6f ""
   "img/otros.png" 1686524674 15986 aaad141243a6f44385fbdba6c9eead41 ""
   "img/plot.png" 1686527917 35402 76c82623fe58402cf1a8255cf1f1f31b ""
-  "lab4.tex" 1686528391 9200 7f6cab8b8882be93e2e72e7536b4c5e4 ""
+  "lab4.tex" 1686528779 8588 7506acad41b303ab927a6237a036abf0 ""
   "src/e2a.py" 1686105070 135 92873582f98c7f45b889b3fcc539d5e7 ""
-  "src/pic01.py" 1686276337 1066 9f3d3b37881bc50617ab9e0bd2f37323 ""
   (generated)
   "build/lab4.aux"
   "build/lab4.log"

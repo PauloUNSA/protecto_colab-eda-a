@@ -1034,12 +1034,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT .\src\pic01.py
-INPUT src\pic01.py
-INPUT .\src\pic01.py
-INPUT src\pic01.py
-INPUT .\src\pic01.py
-INPUT src\pic01.py
 INPUT .\src\e2a.py
 INPUT src\e2a.py
 INPUT .\src\e2a.py
@@ -1053,13 +1047,6 @@ INPUT .\img\e2a.png
 INPUT .\img\e2a.png
 INPUT .\img\e2a.png
 INPUT .\img\e2a.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT img\logo_episunsa.png
-INPUT .\img\logo_episunsa.png
-INPUT .\img\logo_abet.png
-INPUT img\logo_abet.png
-INPUT .\img\logo_abet.png
 INPUT .\img\logo_episunsa.png
 INPUT .\img\logo_episunsa.png
 INPUT img\logo_episunsa.png
