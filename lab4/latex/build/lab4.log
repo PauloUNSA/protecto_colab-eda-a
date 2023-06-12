@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  11 JUN 2023 20:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.6.4)  11 JUN 2023 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -696,11 +696,11 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [2 <./img/otros.png> <./img/insertionSort.png>]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 225.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 224.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 225.
+Package pdftex.def Info: img/logo_abet.png  used on input line 224.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
 
 
@@ -713,11 +713,11 @@ Package fancyhdr Warning: \headheight is too small (30.0pt):
 [3 <./img/generador.png> <./img/importaciones.png> <./img/plot.png>]
 File: img/logo_episunsa.png Graphic file (type png)
 <use img/logo_episunsa.png>
-Package pdftex.def Info: img/logo_episunsa.png  used on input line 225.
+Package pdftex.def Info: img/logo_episunsa.png  used on input line 224.
 (pdftex.def)             Requested size: 85.35826pt x 25.38835pt.
 File: img/logo_abet.png Graphic file (type png)
 <use img/logo_abet.png>
-Package pdftex.def Info: img/logo_abet.png  used on input line 225.
+Package pdftex.def Info: img/logo_abet.png  used on input line 224.
 (pdftex.def)             Requested size: 34.14322pt x 38.26549pt.
 
 
@@ -745,7 +745,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,16n,97p,500b,1404s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on c:\Users\paulo\protecto_colab-eda-a\lab4\latex\build\lab4.pdf (4 pages, 157823 bytes).
+Output written on c:\Users\paulo\protecto_colab-eda-a\lab4\latex\build\lab4.pdf (4 pages, 157732 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
