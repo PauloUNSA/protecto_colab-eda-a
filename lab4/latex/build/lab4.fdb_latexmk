@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1686532116 "c:/Users/paulo/protecto_colab-eda-a/lab4/latex/lab4.tex" "build/lab4.pdf" "lab4" 1686532120 0
+["pdflatex"] 1686532214 "c:/Users/paulo/protecto_colab-eda-a/lab4/latex/lab4.tex" "build/lab4.pdf" "lab4" 1686532219 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmss10.tfm" 1136765053 1316 b636689f1933f24d1294acdf6041daaa ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmss8.tfm" 1136765053 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmss9.tfm" 1136765053 1320 49357c421c0d469f88b867dd0c3d10e8 ""
@@ -102,9 +102,9 @@
   "C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685894610 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1685894690 23169144 07271776ddda4aded45d63ace5385fa9 ""
-  "build/lab4.aux" 1686532119 1098 9ed82bf3c46cc7ad9344732c1991f3c2 "pdflatex"
-  "build/lab4.out" 1686532119 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "c:/Users/paulo/protecto_colab-eda-a/lab4/latex/lab4.tex" 1686532109 9051 2e8aeea13961ad7dd03d10c674267737 ""
+  "build/lab4.aux" 1686532218 1098 9ed82bf3c46cc7ad9344732c1991f3c2 "pdflatex"
+  "build/lab4.out" 1686532218 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/paulo/protecto_colab-eda-a/lab4/latex/lab4.tex" 1686532212 9150 b7c173f5355425c7a378b94e927c5f24 ""
   "img/addFinal.png" 1686531961 9994 cb3495aebe42ef4c191214e3ab55920b ""
   "img/addInicio.png" 1686531961 10149 bf9062016f6da59adb7db646bacb09ee ""
   "img/generador.png" 1686531961 6770 ee52d7824a18dcb240d93f5d80547d3d ""
@@ -114,7 +114,7 @@
   "img/logo_episunsa.png" 1686531961 6815 2a9ee48dad6b8fd2216f86902e5e7a6f ""
   "img/otros.png" 1686531961 15986 aaad141243a6f44385fbdba6c9eead41 ""
   "img/plot.png" 1686531961 35402 76c82623fe58402cf1a8255cf1f1f31b ""
-  "lab4.tex" 1686532109 9051 2e8aeea13961ad7dd03d10c674267737 ""
+  "lab4.tex" 1686532212 9150 b7c173f5355425c7a378b94e927c5f24 ""
   (generated)
   "build/lab4.aux"
   "build/lab4.log"
