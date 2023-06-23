@@ -17,5 +17,25 @@ class AVL<T extends Comparable<T>>{
         node = h;
         return node;
     }*/
+    public NodeAVL<T> getMin(){
+        return getMin(root);
+    }
+    private NodeAVL<T> getMin(NodeAVL<T> nodo){
+        if (nodo.getLeft()==null)return nodo;
+        return getMin((NodeAVL<T>) nodo.getLeft());
+    }
+    public NodeAVL<T> getMax(){
+        return this.root;
+    }
+    public NodeAVL<T> search(NodeAVL<T> nodo){
+        return search(nodo,root);
+    }
+    private NodeAVL<T> search(NodeAVL<T> nodo,NodeAVL<T> otro){
+        if (nodo.getData().compareTo(otro.getData())==0)return otro;
+        else if (nodo.getData().compareTo(otro.getData())>0) {//nodo es mayor
+            return search(nodo, (NodeAVL<T>) otro.getRigth());
+        }else return search(nodo, (NodeAVL<T>) otro.getLeft());
+    }
+
 }
 
