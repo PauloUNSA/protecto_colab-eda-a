@@ -7,4 +7,5 @@ class NodeAVL<T> extends Node<T> {
     public NodeAVL(T data){
         this (data, null, null);
     }
+    public NodeAVL(){}
 }
