@@ -190,6 +190,54 @@ class AVL<T extends Comparable<T>> {
     public T getRoot() {
         return this.root.getData();
     }
-
+    public T parent(T elemento) throws ExceptionNoFound {
+    	NodeAVL<T> aux=root;
+    	NodeAVL<T> padre;
+    	if(isEmpty()) {
+    		throw new ExceptionNoFound("Arbol vacío");
+    	}
+    	else if(elemento.compareTo(root.getData())==0) {
+    		throw new ExceptionNoFound("Elemento ingresado es la raíz");
+    	}
+    	else {
+    		while(aux!=null) {
+        		if(aux.getLeft().getData().compareTo(elemento)==0||aux.getRigth().getData().compareTo(elemento)==0) {
+        			return aux.getData();
+        		}
+        		else {
+        			if(elemento.compareTo(aux.getData())==-1) {
+        				aux=(NodeAVL<T>) aux.getLeft();
+        			}
+        			else {
+        				aux=(NodeAVL<T>) aux.getRigth();
+        			}
+        		}
+        	}
+    	}
+    	
+    	throw new ExceptionNoFound("No se encontró el elemento");
+    	
+    	
+    	
+    }
+    public String son(T elemento) throws ExceptionNoFound {
+    	String hijos="";
+    	NodeAVL<T> aux=search((NodeAVL<T>) new NodeAVL<T>(elemento));
+    	if(aux.getLeft()==null&&aux.getRigth()==null) {
+    		throw new ExceptionNoFound("El nodo no tiene hijos");
+    	}
+    	else {
+    		if(aux.getLeft()!=null) {
+    			hijos+="Left: "+aux.getLeft().getData()+" ";
+    		}
+    		if(aux.getRigth()!=null) {
+    			hijos+="Rigth: "+aux.getRigth().getData();
+    		}
+    	}
+    	
+    	
+    	
+    	return hijos;
+    }
 }
 

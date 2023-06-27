@@ -18,13 +18,15 @@ public class TestAVL {
 		b.inOrden();
 		b.insert(60);
 		b.inOrden();
-		b.insert(10);
+		b.insert(14);
 		b.inOrden();
 		b.insert(5);
 		b.inOrden();
 		b.insert(15);
 		b.inOrden();
-    }
+		System.out.println(b.son(20));
+		System.out.println(b.parent(40));
+	}
 
 }
 
