@@ -1,0 +1,99 @@
+Index: AVL/src/AVL.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>class AVL<T extends Comparable<T>>{\r\n    protected NodeAVL<T> root;\r\n    public AVL() { this.root = null; }\r\n    //public void insert(T x);\r\n    //public void remove(T x);\r\n    /*protected NodeAVL<T> rotateSR(NodeAVL<T> node){\r\n        NodeAVL<T> h = node.getLeft();\r\n        node.getLeft() = h.getRigth();\r\n        h.getRigth() = node;\r\n        node = h;\r\n        return node;\r\n    }\r\n    protected NodeAVL<T> rotateSL(NodeAVL<T> node){\r\n        NodeAVL<T> h = node.right;\r\n        node.right = h.left;\r\n        h.left = node;\r\n        node = h;\r\n        return node;\r\n    }*/\r\n    public NodeAVL<T> getMin(){\r\n        return getMin(root);\r\n    }\r\n    private NodeAVL<T> getMin(NodeAVL<T> nodo){\r\n        if (nodo.getLeft()==null)return nodo;\r\n        return getMin((NodeAVL<T>) nodo.getLeft());\r\n    }\r\n    public NodeAVL<T> getMax(){\r\n        return this.root;\r\n    }\r\n    public NodeAVL<T> search(NodeAVL<T> nodo){\r\n        return search(nodo,root);\r\n    }\r\n    private NodeAVL<T> search(NodeAVL<T> nodo,NodeAVL<T> otro){\r\n        if (nodo.getData().compareTo(otro.getData())==0)return otro;\r\n        else if (nodo.getData().compareTo(otro.getData())>0) {//nodo es mayor\r\n            return search(nodo, (NodeAVL<T>) otro.getRigth());\r\n        }else return search(nodo, (NodeAVL<T>) otro.getLeft());\r\n    }\r\n\r\n}\r\n\r\n
+===================================================================
+diff --git a/AVL/src/AVL.java b/AVL/src/AVL.java
+--- a/AVL/src/AVL.java	
++++ b/AVL/src/AVL.java	
+@@ -17,6 +17,28 @@
+         node = h;
+         return node;
+     }*/
++    private NodeAVL<T> balanceToLeft(NodeAVL<T> node){
++        NodeAVL<T> son = (NodeAVL<T>) node.getRigth();
++        if (son.getFe() == 1){
++            node.setFe(0);
++            son.setFe(0);
++            node = rotateRSL(node);
++        }
++    }
++    private NodeAVL<T> rotateRSL(NodeAVL<T> node){
++        NodeAVL<T> son = (NodeAVL<T>) node.getRigth();
++        node.setRigth(son.getLeft());
++        son.setLeft(node);
++        node = son;
++        return node;
++    }
++    private NodeAVL<T> rotateRSR(NodeAVL<T> node){
++        NodeAVL<T> son = (NodeAVL<T>) node.getLeft();
++        node.setLeft(son.getRigth());
++        son.setRigth(node);
++        node = son;
++        return node;
++    }
+     public NodeAVL<T> getMin(){
+         return getMin(root);
+     }
+@@ -24,6 +46,7 @@
+         if (nodo.getLeft()==null)return nodo;
+         return getMin((NodeAVL<T>) nodo.getLeft());
+     }
++
+     public NodeAVL<T> getMax(){
+         return this.root;
+     }
+Index: AVL/src/NodeAVL.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>class NodeAVL<T> extends Node<T> {\r\n    protected int fe;\r\n    public NodeAVL(T data, NodeAVL<T> left, NodeAVL<T> right){\r\n        super(data, left, right);\r\n        this.fe = 0;\r\n    }\r\n    public NodeAVL(T data){\r\n        this (data, null, null);\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/AVL/src/NodeAVL.java b/AVL/src/NodeAVL.java
+--- a/AVL/src/NodeAVL.java	
++++ b/AVL/src/NodeAVL.java	
+@@ -4,6 +4,45 @@
+         super(data, left, right);
+         this.fe = 0;
+     }
++
++    public int getFe() {
++        return fe;
++    }
++
++    public void setFe(int fe) {
++        this.fe = fe;
++    }
++
++    @Override
++    public T getData() {
++        return super.getData();
++    }
++
++    @Override
++    public void setData(T data) {
++        super.setData(data);
++    }
++
++    @Override
++    public Node<T> getRigth() {
++        return super.getRigth();
++    }
++
++    @Override
++    public void setRigth(Node<T> rigth) {
++        super.setRigth(rigth);
++    }
++
++    @Override
++    public Node<T> getLeft() {
++        return super.getLeft();
++    }
++
++    @Override
++    public void setLeft(Node<T> left) {
++        super.setLeft(left);
++    }
++
+     public NodeAVL(T data){
+         this (data, null, null);
+     }
