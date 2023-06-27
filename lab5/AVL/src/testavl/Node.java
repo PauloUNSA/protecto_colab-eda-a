@@ -1,3 +1,6 @@
+
+package testavl;
+
 public class Node<E> {
     private E data;
     private Node<E> rigth;
@@ -51,3 +54,4 @@ public class Node<E> {
         this.left = left;
     }
 }
+
