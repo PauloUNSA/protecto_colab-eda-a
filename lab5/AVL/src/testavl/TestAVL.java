@@ -3,13 +3,12 @@ package testavl;
 
 import myExceptions.ExceptionNoFound;
 public class TestAVL {
-
-
-    public static void main(String[] args)throws ExceptionNoFound {
+	public static void main(String[] args)throws ExceptionNoFound {
         AVL<Integer> b = new AVL<Integer>();
-	b.insert(20);
+		b.insert(20);
 		b.inOrden();
-		b.insert(30);
+		b.insert(10);
+		System.out.println(b.getRoot());
 		b.inOrden();
 		System.out.println("root: " + b.getRoot());
 		b.insert(40);
@@ -19,14 +18,12 @@ public class TestAVL {
 		b.inOrden();
 		b.insert(60);
 		b.inOrden();
-                b.insert(10);
+		b.insert(10);
 		b.inOrden();
-                b.insert(5);
+		b.insert(5);
 		b.inOrden();
-                b.insert(15);
+		b.insert(15);
 		b.inOrden();
-                
-
     }
 
 }
