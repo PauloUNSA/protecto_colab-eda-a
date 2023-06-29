@@ -4,7 +4,7 @@ package testavl;
 import myExceptions.ExceptionNoFound;
 
 class AVL<T extends Comparable<T>> {
-    protected NodeAVL<T> root;
+    private NodeAVL<T> root;
     private boolean height;
 
     public AVL() {
@@ -145,31 +145,75 @@ class AVL<T extends Comparable<T>> {
 
         return son;
     }
+    public void remove(T x) throws ExceptionNoFound {
+    this.root = remove(x, this.root);
+    this.height = false;
+}
 
-    public NodeAVL<T> getMin() {
-        return getMin(root);
+private NodeAVL<T> remove(T x, NodeAVL<T> current) throws ExceptionNoFound {
+    NodeAVL<T> res = current;
+    if (current == null) {
+        throw new ExceptionNoFound("Elemento no encontrado en el árbol");
+    } else {
+        int resC = current.getData().compareTo(x);
+        if (resC == 0) {
+            if (current.getLeft() == null && current.getRigth()== null) {
+                res = null;
+                this.height = true;
+            } else if (current.getLeft() == null) {
+                res = (NodeAVL<T>) current.getRigth();
+                this.height = true;
+            } else if (current.getRigth() == null) {
+                res = (NodeAVL<T>) current.getLeft();
+                this.height = true;
+            } else {
+                NodeAVL<T> aux = getMin((NodeAVL<T>) current.getRigth());
+                current.setData(aux.getData());
+                current.setRigth(remove(aux.getData(), (NodeAVL<T>) current.getRigth()));
+                this.height = true;
+            }
+        } else if (resC < 0) { // current.data es menor
+            res.setRigth(remove(x, (NodeAVL<T>) current.getRigth()));
+            if (this.height) {
+                switch (res.getBf()) {
+                    case -1:
+                        res.setBf(0);
+                        break;
+                    case 0:
+                        res.setBf(1);
+                        this.height = false;
+                        break;
+                    case 1:
+                        res = balanceToLeft(res);
+                        break;
+                }
+            }
+        } else {
+            res.setLeft(remove(x, (NodeAVL<T>) current.getLeft()));
+            if (this.height) {
+                switch (res.getBf()) {
+                    case 1:
+                        res.setBf(0);
+                        break;
+                    case 0:
+                        res.setBf(-1);
+                        this.height = false;
+                        break;
+                    case -1:
+                        res = balanceToRigth(res);
+                        break;
+                }
+            }
+        }
     }
+    return res;
+}
 
-    private NodeAVL<T> getMin(NodeAVL<T> nodo) {
-        if (nodo.getLeft() == null) return nodo;
-        return getMin((NodeAVL<T>) nodo.getLeft());
-    }
-
-    public NodeAVL<T> getMax() {
-        return this.root;
-    }
-
-    public NodeAVL<T> search(NodeAVL<T> nodo) {
-        return search(nodo, root);
-    }
-
-    private NodeAVL<T> search(NodeAVL<T> nodo, NodeAVL<T> otro) {
-        if (nodo.getData().compareTo(otro.getData()) == 0) return otro;
-        else if (nodo.getData().compareTo(otro.getData()) > 0) {//nodo es mayor
-            return search(nodo, (NodeAVL<T>) otro.getRigth());
-        } else return search(nodo, (NodeAVL<T>) otro.getLeft());
-    }
-
+private NodeAVL<T> getMin(NodeAVL<T> node) {
+    if (node.getLeft() == null)
+        return node;
+    return getMin((NodeAVL<T>) node.getLeft());
+}
     public void inOrden() {
         if (isEmpty())
             System.out.println("Arbol esta vac�o ....");
@@ -186,10 +230,35 @@ class AVL<T extends Comparable<T>> {
         if (current.getRigth() != null)
             inOrden((NodeAVL<T>) current.getRigth());
     }
-
-    public T getRoot() {
+   public T getRoot() {
         return this.root.getData();
     }
+    
+
+    public NodeAVL<T> getMax() {
+    return getMax(root);
+}
+
+    private NodeAVL<T> getMax(NodeAVL<T> nodo) {
+        if (nodo.getRigth() == null) {
+            return nodo;
+    }
+        return getMax((NodeAVL<T>) nodo.getRigth());
+}
+
+    public NodeAVL<T> search(NodeAVL<T> nodo) {
+        return search(nodo, root);
+    }
+
+    private NodeAVL<T> search(NodeAVL<T> nodo, NodeAVL<T> otro) {
+        if (nodo.getData().compareTo(otro.getData()) == 0) return otro;
+        else if (nodo.getData().compareTo(otro.getData()) > 0) {//nodo es mayor
+            return search(nodo, (NodeAVL<T>) otro.getRigth());
+        } else return search(nodo, (NodeAVL<T>) otro.getLeft());
+    }
+
+
+ 
     public T parent(T elemento) throws ExceptionNoFound {
     	NodeAVL<T> aux=root;
     	NodeAVL<T> padre;
