@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1687838804 "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab5/latex/lab4.tex" "build/lab4.pdf" "lab4" 1687838807 0
+["pdflatex"] 1688011586 "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab5/latex/lab4.tex" "build/lab4.pdf" "lab4" 1688011589 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmss10.tfm" 1136765053 1316 b636689f1933f24d1294acdf6041daaa ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmss8.tfm" 1136765053 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmssbx10.tfm" 1136765053 1272 e2d13f0df30bf3ad990bb9d028e37f34 ""
@@ -99,15 +99,17 @@
   "C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/paulo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1685894610 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/paulo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1685894690 23169144 07271776ddda4aded45d63ace5385fa9 ""
-  "build/lab4.aux" 1687838807 955 f7129c4bf77c0f7ecf91f27c9f60fe55 "pdflatex"
-  "build/lab4.out" 1687838807 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab5/latex/lab4.tex" 1687838800 7893 74af0d39a0e688452d9d5777f57f7b5d ""
+  "build/lab4.aux" 1688011589 955 75d29c70666e7c5aebad774e12267832 "pdflatex"
+  "build/lab4.out" 1688011588 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/paulo/OneDrive/labs/proyecto_colab-eda-a/lab5/latex/lab4.tex" 1688011585 8452 dc9ceb80be25a2272945d9ba787277f1 ""
   "img/getMax.png" 1687838425 4115 47879f22c2f3550e14561930519fc4e7 ""
   "img/getMin.png" 1687838283 14497 bdd03df2b70286185e7c1bfbd1bb6898 ""
   "img/logo_abet.png" 1686918546 6307 419a1d1911db3872e78cc7f9d6dfea5f ""
   "img/logo_episunsa.png" 1686918546 6815 2a9ee48dad6b8fd2216f86902e5e7a6f ""
+  "img/metodoParent.png" 1688010133 21016 0497cf43c75ba87b61be4c92efa8f1a1 ""
+  "img/metodoSon.png" 1688010133 12641 6b8369c45a6b6785a1225670b8886596 ""
   "img/search.png" 1687838476 26927 3d5afdad6d6f517e42e79f694c6f7bba ""
-  "lab4.tex" 1687838800 7893 74af0d39a0e688452d9d5777f57f7b5d ""
+  "lab4.tex" 1688011585 8452 dc9ceb80be25a2272945d9ba787277f1 ""
   (generated)
   "build/lab4.aux"
   "build/lab4.log"
