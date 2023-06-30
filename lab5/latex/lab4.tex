@@ -160,7 +160,57 @@
 		%%%%%%%%%%%%
 		\rowcolor{tablebackground}
 		\color{white}\textbf{SOLUCIONES Y PRUEBAS}  \\
-		\hline 
+		\hline
+		\textbf{ Para el metodo insert se crea la variable res que representa e resultado de la insercion, si el nodo current es nulo significa que se ha llegado a una posicion vacia en el arbol y se crea un nuevo nodo res con el elemento x que insertaremos. Ademas se establece la variable height como verdadero, lo que indica que la altura del arbol ah cambiado debido a la insercion. En el caso current no sea nulo se compara con x en el caso del resultado ser 0 significa que el elemento ya esta en el arbol. Si el resultado de la comparación es menor que 0, significa que el elemento x es mayor que el elemento en el nodo actual.
+		En este caso, se llama recursivamente al método insert en el hijo derecho del nodo actual. El resultado se establece como el hijo derecho de res.
+		En el caso la altura del arbol halla cambiado se realizan operaciones para mantener el balance del arbol.
+		Dentro del switch statement, se examina el factor de equilibrio (res.getBf()) del nodo res. Dependiendo del valor del factor de equilibrio, se realizan las siguientes acciones:
+		Si el factor de equilibrio es -1, se establece en 0 y this.height se establece en falso, lo que indica que la altura del árbol se ha mantenido igual.
+		Si el factor de equilibrio es 0, se establece en 1.
+		Si el factor de equilibrio es 1, se llama al método balanceToLeft(res) para realizar una rotación izquierda-derecha y equilibrar el árbol.
+		El resultado se asigna a res, y this.height se establece en falso. Haciéndose un proceso muy similar en el caso si el current es mayor que 0.
+
+}\\
+		\includegraphics[width=0.85\textwidth,keepaspectratio]{img/insert1.png}\\
+		\includegraphics[width=0.85\textwidth,keepaspectratio]{img/insert2.png}\\
+
+
+		\textbf{ Para los procesos anteriores usamos balanceToLeft y balanceToRigth. El método balanceToLeft se utiliza en un árbol AVL para equilibrar el árbol después de una inserción en el subárbol derecho.
+		El método recibe un nodo como entrada, que representa el nodo actual que necesita ser equilibrado.
+		Se obtiene el hijo derecho del nodo.
+		Si el factor de equilibrio del hijo derecho es 1, se realiza una rotación derecha-izquierda para equilibrar el árbol.
+		Si el factor de equilibrio del hijo derecho es -1, se realiza una rotación izquierda-derecha y luego una rotación derecha-izquierda para equilibrar el árbol.
+		Después de las rotaciones, el árbol está equilibrado y se devuelve el nodo resultante.
+		El método balanceToRigth funcionando de una forma muy similar
+}\\
+		\includegraphics[width=0.85\textwidth,keepaspectratio]{img/balance1.png}\\
+		\includegraphics[width=0.85\textwidth,keepaspectratio]{img/balance2.png}\\
+
+		\textbf{ El método rotateRSL se utiliza en un árbol AVL para realizar una rotación derecha-izquierda en un nodo específico.
+		El método recibe un nodo node como entrada.
+		Se obtiene el hijo derecho del nodo node.
+		El hijo izquierdo del nodo node se establece como el nuevo hijo derecho del node.
+		El nodo node se convierte en el nuevo hijo izquierdo del hijo derecho.
+		Después de la rotación, se devuelve el hijo derecho, que ahora ocupa la posición superior en la subestructura rotada.
+
+}\\
+		\includegraphics[width=0.85\textwidth,keepaspectratio]{img/rotaciones.png}\\
+
+		\textbf{ El método remove se utiliza en un árbol AVL para eliminar un nodo con un valor específico.
+		El método remove recibe como parámetros el valor x a eliminar y el nodo current que representa el nodo actual en el proceso de eliminación.
+		Se inicializa una variable res con el valor de current, que se utilizará para almacenar el nodo resultante después de la eliminación.
+		Si el nodo current es nulo, se lanza una excepción indicando que el elemento no se encuentra en el árbol.
+		Se compara el valor del nodo current con el valor x. Si son iguales, significa que se ha encontrado el nodo a eliminar.
+		Si el nodo a eliminar no tiene hijos (es una hoja), se establece res como nulo y se marca la altura como cambiada (this.height = true).
+		Si el nodo a eliminar tiene solo un hijo (izquierdo o derecho), se establece res como el hijo existente y se marca la altura como cambiada (this.height = true).
+		Si el nodo a eliminar tiene dos hijos, se busca el nodo mínimo en el subárbol derecho del nodo actual. Se copia el valor del nodo mínimo al nodo actual, se elimina el nodo mínimo del subárbol derecho y se actualiza la altura.
+		Si el valor x es menor que el valor del nodo actual, se realiza una llamada recursiva al método remove en el subárbol derecho del nodo actual. Luego se ajusta la altura y se equilibra el árbol si es necesario.
+		Si el valor x es mayor que el valor del nodo actual, se realiza una llamada recursiva al método remove en el subárbol izquierdo del nodo actual. Luego se ajusta la altura y se equilibra el árbol si es necesario.
+		Al finalizar, se devuelve el nodo resultante res.
+		}\\
+		\includegraphics[width=0.85\textwidth,keepaspectratio]{img/remove1.png}\\
+		\includegraphics[width=0.85\textwidth,keepaspectratio]{img/remove2.png}\\
+
 		\textbf{Métodos search, getMin, getMax}\\
 		\textbf{Para el método search se da como argumento un nodo,
 		 el cual sirve para redirigirlo a otro método search privado 
