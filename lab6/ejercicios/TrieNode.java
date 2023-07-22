@@ -1,12 +1,17 @@
-public class TrieNode {
+public class TrieNode<E> {
     private boolean isEndOfWord;
-    private TrieNode nextnode;
-    private static final int ALPHABET_SIZE = 26;
-    private TrieNode[] children;
-
-    public TrieNode() {
-        children = new TrieNode[ALPHABET_SIZE];
-        isEndOfWord = false;
+    private E data;
+    private TrieNode<E> hermano;
+    private ListLinked<E> hijo;
+    
+    public TrieNode(E data, TrieNode<E> hermano) {
+        this.data = data;
+        this.hermano = hermano;
+        this.hijo=null;
+        this.isEndOfWord=false;
+    }
+    public TrieNode(E data){
+        this(data,null);
     }
 
     public boolean isIsEndOfWord() {
@@ -17,20 +22,33 @@ public class TrieNode {
         this.isEndOfWord = isEndOfWord;
     }
 
-    public TrieNode getNextnode() {
-        return nextnode;
+    public E getData() {
+        return data;
     }
 
-    public void setNextnode(TrieNode nextnode) {
-        this.nextnode = nextnode;
+    public void setData(E data) {
+        this.data = data;
     }
 
-    public TrieNode[] getChildren() {
-        return children;
+    public TrieNode<E> getHermano() {
+        return hermano;
     }
 
-    public void setChildren(TrieNode[] children) {
-        this.children = children;
+    public void setHermano(TrieNode<E> hermano) {
+        this.hermano = hermano;
+    }
+
+    public ListLinked<E> getHijo() {
+        return hijo;
+    }
+
+    public void setHijo(ListLinked<E> hijo) {
+        this.hijo = hijo;
+    }
+    
+    @Override
+    public String toString() {
+        return this.data.toString();
     }
 
 }
