@@ -1,7 +1,7 @@
 import myExceptions.ExceptionNoFound;
 
 public class ListLinked<E> implements TDAList<E>{
-	private Node<E> head;
+	private TrieNode<E> head;
 	private int count;
 	
 	public ListLinked() {
@@ -18,7 +18,7 @@ public class ListLinked<E> implements TDAList<E>{
 	}
 	
 	public void insertFirst(E x) {
-		this.head = new Node<E>(x, this.head);
+		this.head = new TrieNode<E>(x, this.head);
 		this.count ++;
 	}
 	
@@ -26,32 +26,32 @@ public class ListLinked<E> implements TDAList<E>{
 		if (isEmpty())
 			insertFirst(x);
 		else {
-			Node<E> aux = this.head;
-			while ( aux.getNext() != null)
-				aux = aux.getNext();
-			aux.setNext(new Node<E>(x));
+			TrieNode<E> aux = this.head;
+			while ( aux.getHermano()!= null)
+				aux = aux.getHermano();
+			aux.setHermano(new TrieNode<E>(x));
 			this.count ++;
 		}
 	}
 	
 	public boolean search(E x) { 
-		Node<E> aux = this.head;
-		for(; aux != null && !aux.getData().equals(x); aux = aux.getNext());
+		TrieNode<E> aux = this.head;
+		for(; aux != null && !aux.getData().equals(x); aux = aux.getHermano());
 		return aux != null;
 	}
 	
 	public void remove(E x) {
 		if (!isEmpty()) {
 			if (this.head.getData().equals(x)) {
-				this.head = this.head.getNext();
+				this.head = this.head.getHermano();
 				this.count --;
 			}
 			else {
-				Node<E> aux = this.head;
-				while(aux.getNext() !=  null && !aux.getNext().getData().equals(x))
-					aux = aux.getNext();
-				if (aux.getNext() != null) {
-					aux.setNext(aux.getNext().getNext());
+				TrieNode<E> aux = this.head;
+				while(aux.getHermano()!=  null && !aux.getHermano().getData().equals(x))
+					aux = aux.getHermano();
+				if (aux.getHermano()!= null) {
+					aux.setHermano(aux.getHermano().getHermano());
 					this.count --;
 				}
 			}
@@ -60,10 +60,11 @@ public class ListLinked<E> implements TDAList<E>{
 	
 	public String toString() {
 		String str = "";
-		for(Node<E> aux = this.head; aux != null; aux = aux.getNext())
+		for(TrieNode<E> aux = this.head; aux != null; aux = aux.getHermano())
 			str += aux.toString() + ", ";
 		return str;
 	}
 	
 	
 }
+
