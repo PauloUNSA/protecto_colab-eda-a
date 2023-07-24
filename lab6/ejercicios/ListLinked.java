@@ -17,14 +17,14 @@ public class ListLinked<E> implements TDAList<E>{
 		return this.count;
 	}
 	
-	public void insertFirst(E x) {
+	public void insertFirstHermano(E x) {
 		this.head = new TrieNode<E>(x, this.head);
 		this.count ++;
 	}
 	
-	public void insertLast(E x) {
+	public void insertLastHermano(E x) {
 		if (isEmpty())
-			insertFirst(x);
+			insertFirstHermano(x);
 		else {
 			TrieNode<E> aux = this.head;
 			while ( aux.getHermano()!= null)
@@ -33,11 +33,27 @@ public class ListLinked<E> implements TDAList<E>{
 			this.count ++;
 		}
 	}
-	
+        public void inserthijo(E x){
+            TrieNode<E> aux = this.head;
+            
+            while ( aux.getHijo()!= null)
+				aux = aux.getHermano();
+		aux.setHermano(new TrieNode<E>(x));
+        }
+
 	public boolean search(E x) { 
 		TrieNode<E> aux = this.head;
 		for(; aux != null && !aux.getData().equals(x); aux = aux.getHermano());
-		return aux != null;
+                    return aux != null;
+	}
+        public TrieNode<E> searchData(E x) {
+		TrieNode<E> aux = this.head;
+		for(; aux != null; aux = aux.getHermano()) {
+			if (aux.getData().equals(x)) {
+				return aux;
+			}
+		}
+		return null;
 	}
 	
 	public void remove(E x) {
@@ -67,4 +83,3 @@ public class ListLinked<E> implements TDAList<E>{
 	
 	
 }
-

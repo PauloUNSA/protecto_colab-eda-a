@@ -7,7 +7,7 @@ public class TrieNode<E> {
     public TrieNode(E data, TrieNode<E> hermano) {
         this.data = data;
         this.hermano = hermano;
-        this.hijo=null;
+        this.hijo=new ListLinked<>();
         this.isEndOfWord=false;
     }
     public TrieNode(E data){
@@ -52,3 +52,4 @@ public class TrieNode<E> {
     }
 
 }
+
