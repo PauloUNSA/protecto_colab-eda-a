@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac0307b-7d1c-4d61-9402-a0ce2bb9a78c" name="Changes" comment="" />
+    <list default="true" id="0ac0307b-7d1c-4d61-9402-a0ce2bb9a78c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +37,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/paulo/OneDrive/labs/fallos/proyecto_colab-eda-a/lab6/ejercicio&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -66,6 +69,8 @@
       <updated>1690408928363</updated>
       <workItem from="1690408929779" duration="2360000" />
       <workItem from="1690411795125" duration="93000" />
+      <workItem from="1690411912556" duration="161000" />
+      <workItem from="1690412105298" duration="19000" />
     </task>
     <servers />
   </component>
