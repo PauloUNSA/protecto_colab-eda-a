@@ -142,7 +142,6 @@ class AVL<T extends Comparable<T>> {
         NodeAVL<T> son = (NodeAVL<T>) node.getLeft();
         node.setLeft(son.getRigth());
         son.setRigth(node);
-
         return son;
     }
     public void remove(T x) throws ExceptionNoFound {
