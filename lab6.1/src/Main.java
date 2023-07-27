@@ -3,6 +3,8 @@
 // (powered by FernFlower decompiler)
 //
 
+import javax.swing.*;
+
 public class Main {
     public Main() {
     }

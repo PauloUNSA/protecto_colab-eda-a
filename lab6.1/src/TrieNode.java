@@ -17,6 +17,13 @@ class TrieNode {
     public TrieNode getChildren(int i) {
         return this.children[i];
     }
+    public void setChildren(TrieNode trieNode,int i) {
+        this.children[i] = trieNode;
+    }
+
+    public TrieNode[] getChildrens() {
+        return children;
+    }
 
     public void insertChildren(int i, boolean eok) {
         if (this.children[i] == null) {
