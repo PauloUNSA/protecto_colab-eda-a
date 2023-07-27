@@ -1,8 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
 public class Trie {
     private TrieNode root = new TrieNode();
 
@@ -14,12 +9,12 @@ public class Trie {
 
         int j;
         for(int i = 0; i < palabra.length() - 1; ++i) {
-            j = palabra.charAt(i) - 97;
+            j = palabra.charAt(i) - 'a';
             actual.insertChildren(j, false);
-            actual = actual.getChildren(j);
+            if (actual.getChildren(j) !=null) actual = actual.getChildren(j);
         }
 
-        j = palabra.charAt(palabra.length() - 1) - 97;
+        j = palabra.charAt(palabra.length() - 1) - 'a';
         actual.insertChildren(j, true);
     }
 

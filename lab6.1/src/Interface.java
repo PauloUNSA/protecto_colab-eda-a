@@ -3,11 +3,13 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.util.List;
+
 public class Interface extends JFrame {
-    JTextField texto = new JTextField(15);
+    JTextField cuadroTexto = new JTextField(15);
     JButton[] botones= new JButton[3];
-    JTextArea jTextArea = new JTextArea(1,1);
+    JTextArea textoMostrado = new JTextArea(1,1);
+    ArrayList<String> texto = new ArrayList<>();
+    Trie trie = new Trie();
     public Interface() {
         setSize(500,500);
         setTitle("Prueba");
@@ -22,33 +24,140 @@ public class Interface extends JFrame {
         botones[0].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jTextArea.setText("insertar");
+                String[] palabras =  cuadroTexto.getText().split("\\s+");
+                for (String palabra : palabras) {
+                    trie.insert(palabra.toLowerCase());
+                    texto.add(palabra);
+                }
+                actualizarTextoMostrado();
+                cuadroTexto.setText("");
             }
         });
         botones[1] = new JButton("buscar");
         botones[1].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jTextArea.setText("buscar");
+                textoMostrado.setText("buscar");
             }
         });
         botones[2] = new JButton("reemplazar");
         botones[2].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jTextArea.setText("reemplazar");
+                textoMostrado.setText("reemplazar");
             }
         });
-        panel.add(texto);
+        panel.add(cuadroTexto);
         panel.add(botones[0]);
         panel.add(botones[1]);
         panel.add(botones[2]);
         add(panel,BorderLayout.NORTH);
-        add(jTextArea,BorderLayout.CENTER);
+        add(textoMostrado,BorderLayout.CENTER);
+    }
+
+    private void actualizarTextoMostrado() {
+        String resul = "";
+        for (String s :
+                texto) {
+            resul += s + " ";
+        }
+        textoMostrado.setText(resul);
     }
 
     public static void main(String[] args) {
         new Interface();
     }
-
+    /*private Trie trie;
+    private JTextField palabraField;
+    private JTextArea visualizacionArea;
+    private List<String> palabrasIngresadas;
+    public Interface() {
+        trie = new Trie();
+        palabrasIngresadas = new ArrayList<>();
+        setTitle("Interfaz Trie");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(600, 400);
+        setLayout(new BorderLayout());
+// Panel para la entrada de palabras
+        JPanel palabraPanel = new JPanel();
+        palabraPanel.setLayout(new FlowLayout());
+        JLabel etiquetaPalabra = new JLabel("Palabra:");
+        palabraField = new JTextField(20);
+        JButton insertarButton = new JButton("Insertar");
+        insertarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String textoIngresado = palabraField.getText();
+                String[] palabras = textoIngresado.split("\\s+");
+                for (String palabra : palabras) {
+                    trie.insert(palabra.toLowerCase());
+                    palabrasIngresadas.add(palabra);
+                }
+// Actualizar el contenido del rea de visualizacin
+                actualizarVisualizacion();
+                palabraField.setText("");
+            }
+        });
+        palabraPanel.add(etiquetaPalabra);
+        palabraPanel.add(palabraField);
+        palabraPanel.add(insertarButton);
+// Panel para realizar operaciones
+        JPanel operacionesPanel = new JPanel();
+        operacionesPanel.setLayout(new FlowLayout());
+        JButton buscarButton = new JButton("Buscar");
+        buscarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String palabra = palabraField.getText().toLowerCase();
+                boolean encontrada = trie.search(palabra);
+                String mensaje = encontrada ? "Palabra encontrada" : "Palabra no encontrada";
+                JOptionPane.showMessageDialog(Interface.this, mensaje);
+            }
+        });
+        JButton reemplazarButton = new JButton("Reemplazar");
+        reemplazarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String palabraAntigua = JOptionPane.showInputDialog(Interface.this,
+                        "Ingresa la palabra a reemplazar:");
+                String palabraNueva = JOptionPane.showInputDialog(Interface.this, "Ingresa la nueva palabra:");
+                trie.reemplazar(palabraAntigua.toLowerCase(), palabraNueva.toLowerCase());
+// Actualizar la lista de palabras ingresadas
+                int index = palabrasIngresadas.indexOf(palabraAntigua);
+                if (index != -1) {
+                    palabrasIngresadas.set(index, palabraNueva);
+                }
+// Actualizar el contenido del rea de visualizacin
+                actualizarVisualizacion();
+            }
+        });
+        operacionesPanel.add(buscarButton);
+        operacionesPanel.add(reemplazarButton);
+// Panel para mostrar el resultado
+        JPanel visualizacionPanel = new JPanel();
+        visualizacionPanel.setLayout(new BorderLayout());
+        visualizacionArea = new JTextArea();
+        visualizacionArea.setEditable(false);
+        JScrollPane scrollPaneVisualizacion = new JScrollPane(visualizacionArea);
+        visualizacionPanel.add(scrollPaneVisualizacion, BorderLayout.CENTER);
+// Agregar los paneles a la ventana
+        add(palabraPanel, BorderLayout.NORTH);
+        add(operacionesPanel, BorderLayout.CENTER);
+        add(visualizacionPanel, BorderLayout.SOUTH);
+// Mostrar la ventana
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
+    private void actualizarVisualizacion() {
+        StringBuilder sb = new StringBuilder();
+        for (String palabra : palabrasIngresadas) {
+            sb.append(palabra).append(" ");
+        }
+        visualizacionArea.setText(sb.toString().trim());
+    }
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            new Interface();
+        });
+    }*/
 }

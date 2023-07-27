@@ -15,7 +15,8 @@ class TrieNode {
     }
 
     public TrieNode getChildren(int i) {
-        return this.children[i];
+        if (i>=0&&i<=26) return this.children[i];
+        return null;
     }
     public void setChildren(TrieNode trieNode,int i) {
         this.children[i] = trieNode;
@@ -26,10 +27,10 @@ class TrieNode {
     }
 
     public void insertChildren(int i, boolean eok) {
-        if (this.children[i] == null) {
-            this.children[i] = new TrieNode(eok);
+        if (i>=0&&i<=26) {
+            if (this.children[i] == null) this.children[i] = new TrieNode(eok);
+            else if (!this.children[i].isEndOfWord() && eok) this.children[i].setEndOfWord(true);
         }
-
     }
 
     public boolean isEndOfWord() {
