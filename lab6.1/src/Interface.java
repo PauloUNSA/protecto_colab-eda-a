@@ -1,3 +1,4 @@
+package ejercicio;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -6,10 +7,11 @@ import java.util.ArrayList;
 
 public class Interface extends JFrame {
     JTextField cuadroTexto = new JTextField(15);
-    JButton[] botones= new JButton[3];
+    JButton[] botones= new JButton[4];
     JTextArea textoMostrado = new JTextArea(1,1);
     ArrayList<String> palabras = new ArrayList<>();
     Trie trie = new Trie();
+    LectorTexto lector=new LectorTexto();
     public Interface() {
         setSize(500,500);
         setTitle("Prueba");
@@ -18,17 +20,17 @@ public class Interface extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
     }
+  
+    
     public void createContents(){
         Panel panel = new Panel(new FlowLayout());
+        Panel panelInf=new Panel(new FlowLayout());
         botones[0] = new JButton("insertar");
         botones[0].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String[] palabras =  cuadroTexto.getText().split("\\s+");
-                for (String palabra : palabras) {
-                    trie.insert(palabra.toLowerCase());
-                    Interface.this.palabras.add(palabra);
-                }
+            	añadirAlTrie(cuadroTexto.getText());
+                
                 actualizarTextoMostrado();
                 cuadroTexto.setText("");
             }
@@ -57,15 +59,35 @@ public class Interface extends JFrame {
                 cuadroTexto.setText("");
             }
         });
+        botones[3] = new JButton("Importar texto");
+        botones[3].addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String ruta = JOptionPane.showInputDialog(null,"Ingresa la ruta");
+                añadirAlTrie(lector.leerArchivo(ruta));
+                
+                actualizarTextoMostrado();
+                
+            }
+        });
         panel.add(cuadroTexto);
         panel.add(botones[0]);
         panel.add(botones[1]);
         panel.add(botones[2]);
+        panelInf.add(botones[3]);
         add(panel,BorderLayout.NORTH);
+        add(panelInf,BorderLayout.SOUTH);
         textoMostrado.setEditable(false);
         add(textoMostrado,BorderLayout.CENTER);
     }
-
+    
+    private void añadirAlTrie(String frase) {
+    	 String[] palabras =  frase.split("\\s+");
+         for (String palabra : palabras) {
+             trie.insert(palabra.toLowerCase());
+             Interface.this.palabras.add(palabra);
+         }
+    }
     private void actualizarTextoMostrado() {
         String resul = "";
         for (String s :
@@ -74,8 +96,11 @@ public class Interface extends JFrame {
         }
         textoMostrado.setText(resul);
     }
+   
 
     public static void main(String[] args) {
+    	
+    	
         new Interface();
     }
     /*private Trie trie;

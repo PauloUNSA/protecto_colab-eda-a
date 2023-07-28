@@ -2,7 +2,7 @@
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by FernFlower decompiler)
 //
-
+package ejercicio;
 class TrieNode {
     TrieNode[] children = new TrieNode[26];
     boolean isEndOfWord;

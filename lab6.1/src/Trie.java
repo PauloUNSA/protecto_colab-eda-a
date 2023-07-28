@@ -1,3 +1,4 @@
+package ejercicio;
 public class Trie {
     private TrieNode root = new TrieNode();
 
