@@ -8,7 +8,7 @@ public class Interface extends JFrame {
     JTextField cuadroTexto = new JTextField(15);
     JButton[] botones= new JButton[3];
     JTextArea textoMostrado = new JTextArea(1,1);
-    ArrayList<String> texto = new ArrayList<>();
+    ArrayList<String> palabras = new ArrayList<>();
     Trie trie = new Trie();
     public Interface() {
         setSize(500,500);
@@ -27,7 +27,7 @@ public class Interface extends JFrame {
                 String[] palabras =  cuadroTexto.getText().split("\\s+");
                 for (String palabra : palabras) {
                     trie.insert(palabra.toLowerCase());
-                    texto.add(palabra);
+                    Interface.this.palabras.add(palabra);
                 }
                 actualizarTextoMostrado();
                 cuadroTexto.setText("");
@@ -37,14 +37,24 @@ public class Interface extends JFrame {
         botones[1].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                textoMostrado.setText("buscar");
+                String palabraBuscada = cuadroTexto.getText().toLowerCase();
+                String msg = trie.search(palabraBuscada) ? "Se encontro":"No se encontro";
+                JOptionPane.showMessageDialog(null,msg);
             }
         });
         botones[2] = new JButton("reemplazar");
         botones[2].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                textoMostrado.setText("reemplazar");
+                String old = JOptionPane.showInputDialog(null,"Ingresa la palabra que sera reemplazada:");
+                String nueva = JOptionPane.showInputDialog(null, "Ingresa la palabra nueva:");
+                int index = palabras.indexOf(old);
+                if (index != -1) {
+                    palabras.set(index, nueva);
+                    trie.reemplazar(old.toLowerCase(), nueva.toLowerCase());
+                }
+                actualizarTextoMostrado();
+                cuadroTexto.setText("");
             }
         });
         panel.add(cuadroTexto);
@@ -52,13 +62,14 @@ public class Interface extends JFrame {
         panel.add(botones[1]);
         panel.add(botones[2]);
         add(panel,BorderLayout.NORTH);
+        textoMostrado.setEditable(false);
         add(textoMostrado,BorderLayout.CENTER);
     }
 
     private void actualizarTextoMostrado() {
         String resul = "";
         for (String s :
-                texto) {
+                palabras) {
             resul += s + " ";
         }
         textoMostrado.setText(resul);
