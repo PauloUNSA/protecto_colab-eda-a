@@ -1,4 +1,4 @@
-
+import trie.Trie;
 
 public class ParagraphNode {
     Trie trie;

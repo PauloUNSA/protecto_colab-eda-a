@@ -1,7 +1,10 @@
+package trie;
 
+import java.util.ArrayList;
 
 class TrieNode {
     TrieNode[] children = new TrieNode[26];
+    private ArrayList<Integer> posiciones = new ArrayList<>();
     boolean isEndOfWord;
 
     public TrieNode() {
@@ -9,6 +12,10 @@ class TrieNode {
 
     public TrieNode(boolean isEndOfWord) {
         this.isEndOfWord = isEndOfWord;
+    }
+    public TrieNode(boolean isEndOfWord, int posicion) {
+        this.isEndOfWord = isEndOfWord;
+        this.posiciones.add(posicion);
     }
 
     public TrieNode getChildren(int i) {
@@ -29,6 +36,15 @@ class TrieNode {
             else if (!this.children[i].isEndOfWord() && eok) this.children[i].setEndOfWord(true);
         }
     }
+    public void insertChildren(int i, boolean eok, int posicion) {
+        if (i>=0&&i<=26) {
+            if (this.children[i] == null) this.children[i] = new TrieNode(eok);
+            else if (!this.children[i].isEndOfWord() && eok) {
+                this.children[i].setEndOfWord(true);
+                this.children[i].posiciones.add(posicion);
+            }
+        }
+    }
 
     public boolean isEndOfWord() {
         return this.isEndOfWord;
@@ -47,6 +63,6 @@ class TrieNode {
             }
         }
 
-        return "TrieNode{" + resul + "}";
+        return "trie.TrieNode{" + resul + "}";
     }
 }
