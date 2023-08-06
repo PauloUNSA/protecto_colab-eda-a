@@ -2,6 +2,7 @@ package trie;
 
 public class Trie {
     private TrieNode root = new TrieNode();
+    private int size =0;
 
     public Trie() {
     }
@@ -17,7 +18,8 @@ public class Trie {
         }
 
         j = palabra.charAt(palabra.length() - 1) - 'a';
-        actual.insertChildren(j, true);
+        actual.insertChildren(j, true,size);
+        size++;
     }
 
     public boolean search(String palabra) {

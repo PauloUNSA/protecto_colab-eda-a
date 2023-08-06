@@ -1,6 +1,7 @@
 package gui;
 
-import sistema.PlagairismChecker;
+import sistema.PlagiarismChecker;
+import sistema.ResulChacker;
 
 import javax.swing.*;
 import java.awt.*;
@@ -13,7 +14,7 @@ public class Main extends JFrame{
 	private JTextArea textoAIngresar = new JTextArea();
 	JButton plagio, cargaArch;
 	private JFileChooser fileChooser;
-	private PlagairismChecker pC = new PlagairismChecker();
+	private PlagiarismChecker pC = new PlagiarismChecker();
 
 	public static void main(String[] args) {
 		new Main();
@@ -43,50 +44,22 @@ public class Main extends JFrame{
 		fileChooser = new JFileChooser();
 		fileChooser.setMultiSelectionEnabled(true);
 		setActions();
-/*
-		guardarButton.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				if (validarDatos()) {
-										
-					int codigo = Integer.parseInt(codigoField.getText());
-					String nombre = nombreField.getText();
-					String direccion = direccionField.getText();
-					//boolean seGuardo = rutaDeDistribucion.loadFiles(codigo, nombre, direccion);
-					window.getDistributionRoute().addAlmacen(new Almacen(codigo, nombre, direccion));
-
-					codigoField.setText("");
-					nombreField.setText("");
-					direccionField.setText("");
-					
-					JOptionPane.showMessageDialog(null, "Datos guardados exitosamente");
-				}
-			}
-		});
-
-		cargarArchivosButton = new JButton("Cargar Archivos");
-		cargarArchivosButton.setBounds(224, 259, 143, 30);
-		cargarArchivosButton.addActionListener(new ActionListener() {
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				mostrarFileChooser();
-			}
-		});
-
-
-
-		this.add(codigoLabel);
-		this.add(codigoField);
-		this.add(nombreField);
-		this.add(direccionField);
-		this.add(cargarArchivosButton);*/
 	}
 
 	private void setActions() {
 		plagio.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-
+				String texto = textoAIngresar.getText();
+				if (!texto.isEmpty()) {
+					ResulChacker rC = pC.verifyPlagiarism(texto);
+					String resuls ="";
+					for (boolean b :
+							rC.getResul()) {
+						resuls += b+"\n";
+					}
+					JOptionPane.showMessageDialog(null,resuls);
+				}
 			}
 		});
 		cargaArch.addActionListener(new ActionListener() {
@@ -107,10 +80,9 @@ public class Main extends JFrame{
 			for (int i = 0; i < archivosSeleccionados.length; i++) {
 				paths[i] = archivosSeleccionados[i].getAbsolutePath();
 			}
-
 			if (pC.loadFiles(paths)) {
 				mensaje(this, "Archivo(s) correctamente subido(s) y cargado(s)");
-			}
+			}else mensajeError(this,"Archivo en formato incorrecto","Error de carga");
 		}
 	}
 	public void mensajeError(Component location, String alert, String encabezado) {
@@ -119,26 +91,5 @@ public class Main extends JFrame{
 
 	public void mensaje(Component location, String alert) {
 		JOptionPane.showMessageDialog(location, alert);
-	}/*
-
-	
-	private boolean validarDatos() {
-		String codigoStr = codigoField.getText();
-		String nombre = nombreField.getText();
-		String direccion = direccionField.getText();
-
-		try {
-			Integer.parseInt(codigoStr);
-		} catch (NumberFormatException e) {
-			mensajeError(this, "El código debe ser un número entero válido", "Error de validación");
-			return false;
-		}
-
-		if (codigoStr.isEmpty() || nombre.isEmpty() || direccion.isEmpty()) {
-			mensajeError(this, "Todos los campos son obligatorios", "Error de validación");
-			return false;
-		}
-
-		return true;
-	}*/
+	}
 }
