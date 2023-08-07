@@ -19,7 +19,7 @@ public class ResulChacker {
     }
 
     private void detectPlagiarism(ArrayList<Trie> tries) {
-        String[] words = str.toLowerCase().split(" ");
+        String[] words = str.toLowerCase().split("\\s+");
         for (int i = 0; i < resul.length; i++) {
             int numPalbrasConcidentes =0;
             Trie trie = tries.get(i);

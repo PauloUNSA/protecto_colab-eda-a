@@ -33,7 +33,6 @@ public class Main extends JFrame{
 	}
 
 	private void cargarContenido() {
-		add(textoAIngresar,BorderLayout.CENTER);
 		JPanel panel = new JPanel();
 		panel.setLayout(new GridLayout(1,2));
 		JLabel codigoLabel = new JLabel("Ingrese el texto:");
@@ -46,6 +45,10 @@ public class Main extends JFrame{
 		fileChooser = new JFileChooser();
 		fileChooser.setMultiSelectionEnabled(true);
 		textoAIngresar.setEditable(false);
+		textoAIngresar.setLineWrap(true);
+		textoAIngresar.setWrapStyleWord(true);
+		JScrollPane scrollPane = new JScrollPane(textoAIngresar);
+		add(scrollPane,BorderLayout.CENTER);
 		setActions();
 	}
 

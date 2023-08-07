@@ -33,7 +33,7 @@ public class PlagiarismChecker {
                 boolean exito = false;
                 Trie trie = new Trie();
                 while ((line = reader.readLine()) != null) {
-                    String[] palabras = line.split(" ");
+                    String[] palabras = line.split("\\ss+| ");
                     for (int i = 0; i < palabras.length; i++) {
                         palabras[i] = palabras[i].trim().toLowerCase();
                         Pattern pattern = Pattern.compile("^[a-z]+$");
