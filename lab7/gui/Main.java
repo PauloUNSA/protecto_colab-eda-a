@@ -9,6 +9,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
 
+import static javax.swing.JOptionPane.INFORMATION_MESSAGE;
+
 public class Main extends JFrame{
 
 	private JTextArea textoAIngresar = new JTextArea();
@@ -43,6 +45,7 @@ public class Main extends JFrame{
 		add(panel,BorderLayout.SOUTH);
 		fileChooser = new JFileChooser();
 		fileChooser.setMultiSelectionEnabled(true);
+		textoAIngresar.setEditable(false);
 		setActions();
 	}
 
@@ -54,11 +57,13 @@ public class Main extends JFrame{
 				if (!texto.isEmpty()) {
 					ResulChacker rC = pC.verifyPlagiarism(texto);
 					String resuls ="";
+					int i =0;
 					for (boolean b :
 							rC.getResul()) {
-						resuls += b+"\n";
+						resuls += b ? "hay plagio en el archivo "+i+"\n":"No hay plagio en el archivo "+i+"\n";
+						i++;
 					}
-					JOptionPane.showMessageDialog(null,resuls);
+					JOptionPane.showMessageDialog(null,resuls,"Resultados del detector de plagio",INFORMATION_MESSAGE);
 				}
 			}
 		});
@@ -82,6 +87,7 @@ public class Main extends JFrame{
 			}
 			if (pC.loadFiles(paths)) {
 				mensaje(this, "Archivo(s) correctamente subido(s) y cargado(s)");
+				textoAIngresar.setEditable(true);
 			}else mensajeError(this,"Archivo en formato incorrecto","Error de carga");
 		}
 	}

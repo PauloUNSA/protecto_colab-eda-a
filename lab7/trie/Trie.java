@@ -7,6 +7,10 @@ public class Trie {
     public Trie() {
     }
 
+    public int getSize() {
+        return size;
+    }
+
     public void insert(String palabra) {
         TrieNode actual = this.root;
 
