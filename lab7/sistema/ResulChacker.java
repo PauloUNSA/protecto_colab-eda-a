@@ -29,7 +29,8 @@ public class ResulChacker {
                 }
             }
             System.out.println(trie.getSize());
-            resul[i] = (int) (0.2 * trie.getSize()) <= numPalbrasConcidentes;
+            System.out.println(numPalbrasConcidentes);
+            resul[i] = numPalbrasConcidentes != 0 &&Math.round(0.2 * trie.getSize()) <= numPalbrasConcidentes;
         }
     }
 }

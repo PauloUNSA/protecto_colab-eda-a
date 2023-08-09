@@ -188,7 +188,38 @@
 		Se compara cada uno de los documentos ingresados y la clase retornará un arreglo de booleanos que servirán a la interfaz para enviar un aviso de los resultados por cada documento.\\
 		\includegraphics[width=14cm]{img/resultadosMultiples.png}\\
 		
-		En este caso usamos la clase ResulChacker dentro de PlagiarismChecker para poder enviarle el trie como parámetro.\\
+		En este caso usamos la clase ResulChacker dentro de PlagiarismChecker para poder enviarle el un ArrayList de Trie como parámetro.
+		Un Trie por documento. El cual es igual al usado en el lab6 con un atributo más, el cual es el size,
+		que es un entero con la cantidad de palabras que tiene el Trie.
+		\\
+		\includegraphics[width=8cm]{img/TrieClass.png}\\
+		Como decia los requerimientos, se necesitaba subir los archivos desde una ruta
+		por lo cual se necesitaba del metodo auxiliar loadFile que guarda el texto de un archivo en un Trie
+		siempre y cuando el archivo sea .txt, asimismo si ese texto tiene caracteresa especiales
+		no son guardados y muestra un mensaje de alerta. \\
+		\lstinputlisting[language=Java, caption={loadFile.java},numbers=left,]{src/loadFile.java}\\
+		Por otro lado tenemos al metodo detectPlagiarism en la clase ResulChacker que cambia
+		el valor del arrelo del booleano dependiendo si hay plagio o no, considerando este 
+		a partir de la copia textual de el 20 por ciento o más de las palabras del alguno de los archivos \\
+		\lstinputlisting[language=Java, caption={detectPlagiarism.java},numbers=left,]{src/detectPlagiarism.java}\\
+		Con todo lo anterior mencionado se implementa la interfaz la cual pide que primero subamos
+		un archivo de formato correcto para saber si el texto que ingresamos en el JTextArea
+		se considera plagio o no.\\
+		Pantalla inicial\\
+		\includegraphics[width=8cm]{img/pantalla-inicial.png}\\
+		Pantalla de carga\\
+		\includegraphics[width=8cm]{img/carga.png}\\
+		Carga correcta\\
+		\includegraphics[width=8cm]{img/carga-correcta.png}\\
+		Archivo trabalenguas\\
+		\includegraphics[width=8cm]{img/trabalenguas.png}\\
+		Archivo z1\\
+		\includegraphics[width=8cm]{img/z1.png}\\
+		Prueba sin plagio\\
+		\includegraphics[width=8cm]{img/prueba1.png}\\
+		Prueba con plagio\\
+		\includegraphics[width=8cm]{img/prueba2.png}\\
+
 	
 		\hline
 		%%%%%%%%%%%%			

@@ -1,0 +1,50 @@
+Index: ../lab6/ejercicio/ejercicio.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"WEB_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\" inherit-compiler-output=\"true\">\r\n    <exclude-output />\r\n    <content url=\"file://$MODULE_DIR$\" />\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lab6/ejercicio/ejercicio.iml b/../lab6/ejercicio/ejercicio.iml
+--- a/../lab6/ejercicio/ejercicio.iml	(revision 2284859f70c42c932caef1411f001c8c6dd50e73)
++++ b/../lab6/ejercicio/ejercicio.iml	(date 1690412255314)
+@@ -1,8 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8"?>
++<<<<<<< HEAD
+ <module type="WEB_MODULE" version="4">
+   <component name="NewModuleRootManager" inherit-compiler-output="true">
+     <exclude-output />
+     <content url="file://$MODULE_DIR$" />
++=======
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++    </content>
++>>>>>>> 797ac5e (implementado el insertar y buscar)
+     <orderEntry type="inheritedJdk" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+Index: ../lab6/ejercicio/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../lab6/ejercicio/.idea/misc.xml b/../lab6/ejercicio/.idea/misc.xml
+--- a/../lab6/ejercicio/.idea/misc.xml	(revision 2284859f70c42c932caef1411f001c8c6dd50e73)
++++ b/../lab6/ejercicio/.idea/misc.xml	(date 1690412256139)
+@@ -1,6 +1,10 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++<<<<<<< HEAD
+   <component name="ProjectRootManager">
++=======
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_20" default="true" project-jdk-name="20" project-jdk-type="JavaSDK">
++>>>>>>> 797ac5e (implementado el insertar y buscar)
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
